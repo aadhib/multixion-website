@@ -10,6 +10,7 @@
     "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.15",
     "aos": "^2.3.4",
     "gsap": "^3.12.5",
     "isotope-layout": "^3.0.6",

@@ -1,4 +1,4 @@
-import TestimonialSlider1 from '../slider/TestimonialSlider1'
+import TestimonialSlider1 from '../slider/TestimonialSlider'
 
 export default function Testimonial1() {
     return (

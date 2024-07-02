@@ -1,9 +1,9 @@
 /*============================================
 
-   Theme Name: Multixion Creative Agency & Portfolio HTML Template
+   Theme Name: Vexa Creative Agency & Portfolio HTML Template
    Author : AliThemes
    Support: https://alithemes.ticksy.com/
-   Description: Multixion Creative Agency & Portfolio HTML Template
+   Description: Vexa Creative Agency & Portfolio HTML Template
    Version: 1.0
 
 ==============================================*/
@@ -99,10 +99,8 @@ body.theme-yellow {
   --tg-theme-primary: #FCE300;
 }
 body.theme-green {
-  --tg-theme-primary: #A8F600;
+  --tg-theme-primary: #0900ff;
 }
-/* #A8F600 */
-
 body.theme-purple {
   --tg-theme-primary: #7149D2;
 }
@@ -2262,6 +2260,19 @@ textarea.is-invalid {
   color: inherit;
 }
 
+.form-action-message {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.form-success-message {
+  color: green;
+}
+
+.form-error-message {
+  color: red;
+}
+
 /*=============================
 	11. Header
 ===============================*/
@@ -2417,6 +2428,7 @@ textarea.is-invalid {
   }
 }
 .tgmenu__nav .logo img {
+  width: 200px;
   max-height: 40px;
 }
 .tgmenu__navbar-wrap {

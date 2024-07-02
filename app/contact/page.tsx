@@ -1,6 +1,28 @@
+'use client'
+
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { onSubmit } from "./actions"
+import { useRef, useState } from "react"
+
 export default function Contact() {
+    const [submitStatus, setSubmitStatus] = useState({ success: false, error: false });
+    const { success, error } = submitStatus;
+    const formRef = useRef<HTMLFormElement>(null);
+
+    const onSubmitHandler: (formData: FormData) => void = (formData) => {
+        const submitFormAction = onSubmit(formData);
+        submitFormAction.then(
+            () => {
+                setSubmitStatus({ ...submitStatus, success: true });
+                formRef.current?.reset()
+            },
+            () => {
+                setSubmitStatus({ ...submitStatus, error: true });
+            }
+        )
+    }
+
 
     return (
         <>
@@ -43,28 +65,34 @@ export default function Contact() {
                                             <h4 className="subtitle">Got a project you want to collaborate on?
                                                 Or just fancy a chat?</h4>
                                         </div>
-                                        <form action="mail.php" method="POST" className="contact__form ajax-contact">
+                                        <form action={onSubmitHandler} ref={formRef}>
                                             <div className="row gy-35">
                                                 <div className="col-12 form-group">
                                                     <label className="form-icon-left"><img src="/assets/img/icon/svg-img/user.svg" alt="icon" /></label>
-                                                    <input type="text" className="form-control style-border" name="name" id="name" placeholder="Name*" />
+                                                    <input type="text" className="form-control style-border" name="name" id="name" placeholder="Name *" required />
                                                 </div>
                                                 <div className="col-12 form-group">
                                                     <label className="form-icon-left"><img src="/assets/img/icon/svg-img/brifcase.svg" alt="icon" /></label>
-                                                    <input type="text" className="form-control style-border" name="website" id="website" placeholder="Organisation*" />
+                                                    <input type="text" className="form-control style-border" name="website" id="website" placeholder="Organisation *" required />
                                                 </div>
                                                 <div className="col-12 form-group">
                                                     <label className="form-icon-left"><img src="/assets/img/icon/svg-img/envelope.svg" alt="icon" /></label>
-                                                    <input type="text" className="form-control style-border" name="email" id="email" placeholder="Email*" />
+                                                    <input type="number" className="form-control style-border" name="phone_number" id="phone_number" placeholder="Phone Number *" required />
+                                                </div>
+                                                <div className="col-12 form-group">
+                                                    <label className="form-icon-left"><img src="/assets/img/icon/svg-img/envelope.svg" alt="icon" /></label>
+                                                    <input type="text" className="form-control style-border" name="email" id="email" placeholder="Email *" required />
                                                 </div>
                                                 <div className="col-12 form-group">
                                                     <label className="form-icon-left"><img src="/assets/img/icon/svg-img/brush.svg" alt="icon" /></label>
-                                                    <textarea name="message" placeholder="Message*" id="contactForm" className="form-control style-border" />
+                                                    <textarea name="message" placeholder="Message" id="contactForm" className="form-control style-border" />
                                                 </div>
                                             </div>
                                             <button type="submit" className="btn btn-three square-btn mt-60">
                                                 SEND MESSAGE
                                             </button>
+                                            {success && <p className="form-action-message form-success-message">Your form has beeen submitted, We will get in touch with you shortly!</p>}
+                                            {error && <p className="form-action-message form-error-message">Your form was not submitted, Please try again after a while!</p>}
                                         </form>
                                     </div>
                                 </div>

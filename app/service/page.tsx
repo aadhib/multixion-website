@@ -5,7 +5,7 @@ export default function Service() {
 
     return (
         <>
-
+            {/*======== / Service Section ========*/}
             <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Our Services">
                 <div>
                     <section className="service-area-2 pt-120 pb-120">
@@ -17,9 +17,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-3.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">01</h5>
-                                        <h4 className="service-card-title"><Link href="/service-details">UI/UX Design</Link></h4>
+                                        <h4 className="service-card-title"><Link href="/service/web-development">Web Development</Link></h4>
                                         <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service-details" className="link-btn">
+                                        <Link href="/service/web-development" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -31,9 +31,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-2.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">02</h5>
-                                        <h4 className="service-card-title"><Link href="/service-details">Web Design</Link></h4>
+                                        <h4 className="service-card-title"><Link href="/service/mobile-app-development">Mobile App Development</Link></h4>
                                         <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service-details" className="link-btn">
+                                        <Link href="/service/mobile-app-development" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -45,9 +45,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-3.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">03</h5>
-                                        <h4 className="service-card-title"><Link href="/service-details">Website Development</Link></h4>
+                                        <h4 className="service-card-title"><Link href="/service/ui-ux">UI/UX</Link></h4>
                                         <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service-details" className="link-btn">
+                                        <Link href="/service/ui-ux" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -59,9 +59,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-2.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">04</h5>
-                                        <h4 className="service-card-title"><Link href="/service-details">Illustration Modelling</Link></h4>
+                                        <h4 className="service-card-title"><Link href="/service/cloud-software-development">Cloud Software Development</Link></h4>
                                         <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service-details" className="link-btn">
+                                        <Link href="/service/cloud-software-development" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -73,9 +73,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-3.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">05</h5>
-                                        <h4 className="service-card-title"><Link href="/service-details">Branding</Link></h4>
+                                        <h4 className="service-card-title"><Link href="/service/branding">Branding</Link></h4>
                                         <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service-details" className="link-btn">
+                                        <Link href="/service/branding" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -87,9 +87,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-2.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">06</h5>
-                                        <h4 className="service-card-title"><Link href="/service-details">Digital Marketing</Link></h4>
+                                        <h4 className="service-card-title"><Link href="/service/digital-marketing">Digital Marketing</Link></h4>
                                         <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service-details" className="link-btn">
+                                        <Link href="/service/digital-marketing" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -98,10 +98,8 @@ export default function Service() {
                             </div>
                         </div>
                     </section>
-                    {/*======== / Service Section ========*/}
-                    {/*==============================
-    Skill Area 01
-    ==============================*/}
+
+                    {/*======== / Skill Section ========*/}
                     <section className="skill-area-1 pt-120 pb-120 black-bg position-relative">
                         <div className="skill-area-bg-shape1 square-shape-wrap">
                             <div className="square-shape1" />
@@ -156,10 +154,8 @@ export default function Service() {
                             </div>
                         </div>
                     </section>
-                    {/*======== / Skill Section ========*/}
-                    {/*==============================
-    FAQ Area 2
-    ==============================*/}
+
+                    {/*======== / FAQ Section ========*/}
                     <section className="faq-area-2 pt-120 pb-120 gray-bg">
                         <div className="container">
                             <div className="row justify-content-center">

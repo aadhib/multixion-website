@@ -368,3 +368,16 @@ textarea.is-invalid {
         color: inherit;
     }
 }
+
+.form-action-message{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.form-success-message {
+    color: green;
+}
+
+.form-error-message{
+    color: red;
+}
