@@ -1,53 +1,52 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-export default function ServiceDetails() {
 
+export default function ServiceDetails() {
     return (
         <>
-
             <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Services Details">
                 <div>
-                    <div className="service-details-page-area pt-110 ">
+                    <div className="service-details-page-area pt-110">
                         <div className="container">
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-xl-6">
                                     <div className="section__title mb-50">
-                                        <h2 className="title">INNOVATIVE PACKAGE DESIGNS</h2>
-                                        <p className="sec-text">Let's explore the world of cutting-edge packaging design and its impact on the market.</p>
+                                        <h2 className="title">MOBILE APP DEVELOPMENT</h2>
+                                        <p className="sec-text">Discover the world of mobile app development, including native and cross-platform solutions, and their impact on user engagement.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-auto align-self-end">
                                     <div className="service-list7-wrap">
-                                        <h4 className="service-list7-title">Product Design</h4>
+                                        <h4 className="service-list7-title">Development Services</h4>
                                         <ul>
-                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Mobile  Web Apps</li>
-                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> User Experience</li>
-                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Data Visualization</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Native App Development</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Cross-Platform App Development</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Mobile UI/UX Design</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
                                 <img className="w-100" src="/assets/img/service/service-details-1-1.jpg" alt="img" />
-                                <h3 className="page-title mt-60 mb-30">UI Deliverables</h3>
-                                <p className="mb-30">User experience design includes elements of interaction design, visual design, information architecture, user research, and other disciplines, and is concerned with all facts of the overall experience delivered to users. Following is a short analysis of its constituent parts. Graphic treatment of interface elements is often perceived as the visual design.</p>
-                                <p>Visual design, also commonly known as graphic design, user interface design, communication design, and visual communication, represents the aesthetics or look-and-feel of the front end of any user interface.</p>
-                                <h3 className="page-title mt-60 mb-30">UI Deliverables</h3>
-                                <p className="mb-0">UX designers' main goal is to solve the end-users' problems, and thus the ability to communicate the design to stakeholders and developers is critical to the ultimate success of the design. Regarding UX specification documents, these requirements depend on the client or the organization involved in designing a product. The four major deliverables are: a title page, an introduction to the feature, wireframes and a version history.</p>
+                                <h3 className="page-title mt-60 mb-30">Development Deliverables</h3>
+                                <p className="mb-30">Mobile app development encompasses various aspects such as native and cross-platform development, user experience design, and robust backend integration. Each approach offers unique benefits and challenges, tailored to meet the specific needs of the project.</p>
+                                <p>Native development provides the best performance and user experience by leveraging platform-specific languages and frameworks. Cross-platform development, on the other hand, allows for a single codebase to be used across multiple platforms, reducing development time and cost.</p>
+                                <h3 className="page-title mt-60 mb-30">UX Deliverables</h3>
+                                <p className="mb-0">Mobile UX design focuses on creating intuitive and engaging experiences for users. This involves user research, prototyping, and testing to ensure the final product meets user needs and expectations. Key deliverables include user personas, wireframes, interactive prototypes, and usability test reports.</p>
                             </div>
                             <div className="row gy-40 justify-content-between">
                                 <div className="col-xl-5">
-                                    <h3 className="page-title mb-30">We tell the stories of your business.</h3>
-                                    <p className="mb-30">The following details the responsibilities a user experience designer may have at each phase of a project.</p>
+                                    <h3 className="page-title mb-30">We create seamless mobile experiences.</h3>
+                                    <p className="mb-30">The following details the responsibilities a mobile app developer may have at each phase of a project.</p>
                                     <div className="service-list7-wrap">
                                         <ul>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Ethnographic research</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Surveying</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Customer feedback and testing</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Focus group administration</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Non-directed interview</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Contextual Interview</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Mental modeling</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Requirement Analysis</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> User Research</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Prototyping</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Development</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Testing and QA</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Deployment</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Maintenance and Support</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -61,7 +60,7 @@ export default function ServiceDetails() {
                     {/*==============================
     Project Area 03
     ==============================*/}
-                    <section className="project-area-3 pt-110 pb-120 overflow-hidden">
+                    {/* <section className="project-area-3 pt-110 pb-120 overflow-hidden">
                         <div className="container">
                             <div className="section__title mb-50 text-center">
                                 <h2 className="title">Other Projects</h2>
@@ -75,7 +74,7 @@ export default function ServiceDetails() {
                                             </Link>
                                         </div>
                                         <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">Ddipiscing</Link></h4>
+                                            <h4 className="project-card-title"><Link href="/project-details">Mobile App Project 1</Link></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -87,15 +86,14 @@ export default function ServiceDetails() {
                                             </Link>
                                         </div>
                                         <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">Rarturient</Link></h4>
+                                            <h4 className="project-card-title"><Link href="/project-details">Mobile App Project 2</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
-
             </Layout>
         </>
     )

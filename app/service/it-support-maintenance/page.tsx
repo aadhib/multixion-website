@@ -2,52 +2,52 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
 export default function ServiceDetails() {
-
     return (
         <>
             <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Services Details">
                 <div>
-                    <div className="service-details-page-area pt-110 ">
+                    <div className="service-details-page-area pt-110">
                         <div className="container">
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-xl-6">
                                     <div className="section__title mb-50">
-                                        <h2 className="title">WEB DEVELOPMENT</h2>
-                                        <p className="sec-text">Let's explore the world of cutting-edge web development and its impact on the digital landscape.</p>
+                                        <h2 className="title">IT SUPPORT AND MAINTENANCE</h2>
+                                        <p className="sec-text">Ensure the optimal performance of your IT infrastructure with our comprehensive support and maintenance services.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-auto align-self-end">
                                     <div className="service-list7-wrap">
-                                        <h4 className="service-list7-title">Web Development Services</h4>
+                                        <h4 className="service-list7-title">Support Services</h4>
                                         <ul>
-                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Frontend Development</li>
-                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Backend Development</li>
-                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Full-Stack Development</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> System Monitoring and Management</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Technical Support</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Software Updates and Patches</li>
+                                            <li><img src="/assets/img/icon/arrow-left.svg" alt="img" /> Network Management</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
                                 <img className="w-100" src="/assets/img/service/service-details-1-1.jpg" alt="img" />
-                                <h3 className="page-title mt-60 mb-30">Web Development Deliverables</h3>
-                                <p className="mb-30">Web development encompasses a range of tasks from developing simple static pages to complex web applications. Below is a short analysis of its key components, including frontend and backend development.</p>
-                                <p>Frontend development involves creating the visual elements of a website, ensuring it is responsive and user-friendly. Backend development focuses on server-side logic, database interactions, and ensuring that everything functions correctly.</p>
-                                <h3 className="page-title mt-60 mb-30">Development Process</h3>
-                                <p className="mb-0">The development process involves several stages, including requirement analysis, design, coding, testing, and deployment. Effective communication with stakeholders and developers is critical to the success of the project. Documentation typically includes a project overview, wireframes, and version history.</p>
+                                <h3 className="page-title mt-60 mb-30">Maintenance Deliverables</h3>
+                                <p className="mb-30">Our IT support and maintenance services are designed to keep your systems running smoothly and efficiently. We provide ongoing monitoring, proactive maintenance, and prompt resolution of technical issues to minimize downtime and ensure the continuity of your business operations.</p>
+                                <p>With our support services, you gain access to a team of skilled IT professionals who can address a wide range of technical challenges. We offer remote and on-site support, software updates, patch management, and network administration to keep your IT environment secure and up-to-date.</p>
+                                <h3 className="page-title mt-60 mb-30">Proactive Maintenance</h3>
+                                <p className="mb-0">We take a proactive approach to IT maintenance, identifying and resolving potential issues before they impact your operations. Key deliverables include system health checks, performance optimization, security assessments, and regular maintenance schedules to ensure your IT infrastructure remains robust and reliable.</p>
                             </div>
                             <div className="row gy-40 justify-content-between">
                                 <div className="col-xl-5">
-                                    <h3 className="page-title mb-30">We build the digital presence of your business.</h3>
-                                    <p className="mb-30">Below are the responsibilities of a web developer at each phase of a project:</p>
+                                    <h3 className="page-title mb-30">We ensure your systems run smoothly.</h3>
+                                    <p className="mb-30">The following details the responsibilities an IT support specialist may have at each phase of a project.</p>
                                     <div className="service-list7-wrap">
                                         <ul>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Requirement Analysis</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> System Design</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Coding</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Testing</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Deployment</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Maintenance</li>
-                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Documentation</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Initial Assessment</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> System Monitoring</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Technical Support</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Preventive Maintenance</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Issue Resolution</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Performance Tuning</li>
+                                            <li><img src="/assets/img/icon/check-circle2.svg" alt="img" /> Security Updates</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ export default function ServiceDetails() {
                     {/*==============================
     Project Area 03
     ==============================*/}
-                    <section className="project-area-3 pt-110 pb-120 overflow-hidden">
+                    {/* <section className="project-area-3 pt-110 pb-120 overflow-hidden">
                         <div className="container">
                             <div className="section__title mb-50 text-center">
                                 <h2 className="title">Other Projects</h2>
@@ -75,7 +75,7 @@ export default function ServiceDetails() {
                                             </Link>
                                         </div>
                                         <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">Web Development Project 1</Link></h4>
+                                            <h4 className="project-card-title"><Link href="/project-details">IT Support Project 1</Link></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -87,13 +87,13 @@ export default function ServiceDetails() {
                                             </Link>
                                         </div>
                                         <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">Web Development Project 2</Link></h4>
+                                            <h4 className="project-card-title"><Link href="/project-details">IT Support Project 2</Link></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
             </Layout>
         </>

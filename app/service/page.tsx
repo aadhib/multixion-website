@@ -17,9 +17,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-3.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">01</h5>
-                                        <h4 className="service-card-title"><Link href="/service/web-development">Web Development</Link></h4>
-                                        <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service/web-development" className="link-btn">
+                                        <h4 className="service-card-title"><Link href="/service/it-consulting">IT Consulting</Link></h4>
+                                        <p className="service-card-text">Tailored IT strategies to optimize your business operations and enhance efficiency.</p>
+                                        <Link href="/service/it-consulting" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -31,9 +31,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-2.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">02</h5>
-                                        <h4 className="service-card-title"><Link href="/service/mobile-app-development">Mobile App Development</Link></h4>
-                                        <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service/mobile-app-development" className="link-btn">
+                                        <h4 className="service-card-title"><Link href="/service/software-development">Software Development</Link></h4>
+                                        <p className="service-card-text">Custom software solutions designed to meet your specific business needs and drive growth.</p>
+                                        <Link href="/service/software-development" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -45,9 +45,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-3.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">03</h5>
-                                        <h4 className="service-card-title"><Link href="/service/ui-ux">UI/UX</Link></h4>
-                                        <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service/ui-ux" className="link-btn">
+                                        <h4 className="service-card-title"><Link href="/service/web-development">Web Development</Link></h4>
+                                        <p className="service-card-text"> Responsive and scalable web solutions that elevate your online presence and user experience.</p>
+                                        <Link href="/service/web-development" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -59,9 +59,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-2.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">04</h5>
-                                        <h4 className="service-card-title"><Link href="/service/cloud-software-development">Cloud Software Development</Link></h4>
-                                        <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service/cloud-software-development" className="link-btn">
+                                        <h4 className="service-card-title"><Link href="/service/mobile-app-development">Mobile App Development</Link></h4>
+                                        <p className="service-card-text">Innovative mobile applications that engage users and deliver seamless experiences across platforms.</p>
+                                        <Link href="/service/mobile-app-development" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -73,9 +73,9 @@ export default function Service() {
                                             <img src="/assets/img/service/1-3.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">05</h5>
-                                        <h4 className="service-card-title"><Link href="/service/branding">Branding</Link></h4>
-                                        <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service/branding" className="link-btn">
+                                        <h4 className="service-card-title"><Link href="/service/cloud-solutions">Cloud Solutions</Link></h4>
+                                        <p className="service-card-text">Secure and scalable cloud infrastructure to streamline your operations and ensure data accessibility.</p>
+                                        <Link href="/service/cloud-solutions" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -87,9 +87,51 @@ export default function Service() {
                                             <img src="/assets/img/service/1-2.jpg" alt="img" />
                                         </div>
                                         <h5 className="service-card-number">06</h5>
-                                        <h4 className="service-card-title"><Link href="/service/digital-marketing">Digital Marketing</Link></h4>
-                                        <p className="service-card-text">Build success through strong relationships. Let us assist you in building your brand.</p>
-                                        <Link href="/service/digital-marketing" className="link-btn">
+                                        <h4 className="service-card-title"><Link href="/service/cybersecurity">Cybersecurity</Link></h4>
+                                        <p className="service-card-text"> Robust cybersecurity measures to protect your digital assets and safeguard against potential threats.</p>
+                                        <Link href="/service/cybersecurity" className="link-btn">
+                                            Learn More
+                                            <i className="icon-arrow-top-left" />
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 col-md-6">
+                                    <div className="service-card style2">
+                                        <div className="service-card-img">
+                                            <img src="/assets/img/service/1-2.jpg" alt="img" />
+                                        </div>
+                                        <h5 className="service-card-number">07</h5>
+                                        <h4 className="service-card-title"><Link href="/service/networking">Networking</Link></h4>
+                                        <p className="service-card-text">Efficient network solutions to optimize connectivity and facilitate seamless communication within your organization.</p>
+                                        <Link href="/service/networking" className="link-btn">
+                                            Learn More
+                                            <i className="icon-arrow-top-left" />
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 col-md-6">
+                                    <div className="service-card style2">
+                                        <div className="service-card-img">
+                                            <img src="/assets/img/service/1-2.jpg" alt="img" />
+                                        </div>
+                                        <h5 className="service-card-number">08</h5>
+                                        <h4 className="service-card-title"><Link href="/service/it-support-maintenance">IT Support & Maintenance</Link></h4>
+                                        <p className="service-card-text">Proactive IT support and maintenance services to keep your systems running smoothly and minimize downtime.</p>
+                                        <Link href="/service/it-support-maintenance" className="link-btn">
+                                            Learn More
+                                            <i className="icon-arrow-top-left" />
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 col-md-6">
+                                    <div className="service-card style2">
+                                        <div className="service-card-img">
+                                            <img src="/assets/img/service/1-2.jpg" alt="img" />
+                                        </div>
+                                        <h5 className="service-card-number">09</h5>
+                                        <h4 className="service-card-title"><Link href="/service/creative-branding-solutions">Creative Branding</Link></h4>
+                                        <p className="service-card-text">Strategic branding initiatives that define your brand identity and resonate with your target audience.</p>
+                                        <Link href="/service/creative-branding-solutions" className="link-btn">
                                             Learn More
                                             <i className="icon-arrow-top-left" />
                                         </Link>
