@@ -2,7 +2,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-const services = [
+export const services = [
     { id: 1, name: 'Web Development', path: '/service/web-development' },
     { id: 2, name: 'Mobile App Development', path: '/service/mobile-app-development' },
     { id: 3, name: 'UI/UX', path: '/service/ui-ux' },
