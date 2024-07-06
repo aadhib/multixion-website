@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Team1() {
+export default function Team() {
     return (
         <>
             <section className="team-area-1 pt-110 theme-bg">

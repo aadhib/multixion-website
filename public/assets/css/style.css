@@ -53,7 +53,7 @@
   --tg-heading-line-height: 1.2;
   --tg-body-color: #0A0C00;
   --tg-heading-color: #0A0C00;
-  --tg-theme-primary: #00DF8E;
+  --tg-theme-primary: #0900ff;
   --tg-color-dark-blue: #0E104B;
   --tg-color-dark-blue-2: #001950;
   --tg-color-light-blue: #7149D2;
@@ -8090,6 +8090,8 @@ textarea.is-invalid {
 }
 .blog__details-thumb img {
   min-height: 250px;
+  aspect-ratio: 16/9;
+  width: 100%;
   object-fit: cover;
 }
 .blog__details-thumb .blog__post-meta {
@@ -8192,7 +8194,6 @@ textarea.is-invalid {
 }
 
 blockquote {
-  background: var(--tg-theme-primary);
   padding: 50px 44px 44px 75px;
   position: relative;
   z-index: 1;

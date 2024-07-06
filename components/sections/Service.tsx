@@ -2,7 +2,7 @@
 import Link from "next/link"
 import { useEffect } from 'react'
 
-export default function Service1() {
+export default function Service() {
     useEffect(() => {
         const tabs = document.querySelectorAll<HTMLElement>('.service1-tab-wrap li')
 

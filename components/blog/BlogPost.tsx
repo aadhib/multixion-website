@@ -15,7 +15,6 @@ interface BlogPostProps {
 
 export default function BlogPost({ style, showItem, showPagination }: BlogPostProps) {
     const [currentPage, setCurrentPage] = useState<number>(1)
-    // const showLimit = showItem 
     const paginationItem: number = 4
 
     const [pagination, setPagination] = useState<number[]>([])

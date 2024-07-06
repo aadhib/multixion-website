@@ -6,7 +6,7 @@ $colors: (
         color: #0A0C00,
     ),
     theme: (
-        primary: #00DF8E,
+        primary: #0900ff,
     ),
     color: (
         dark-blue: #0E104B,
@@ -36,6 +36,7 @@ $colors: (
         6: #E6E6E6,
     )
 );
+
 .text-theme {
     color: var(--tg-theme-primary) !important;
 }

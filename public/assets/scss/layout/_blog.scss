@@ -462,6 +462,7 @@
         padding-right: 0;
     }
 }
+
 .blog__details-thumb {
     margin-bottom: 40px;
     position: relative;
@@ -472,6 +473,8 @@
     }
     img {
         min-height: 250px;
+        aspect-ratio: 16/9;
+        width: 100%;
         object-fit: cover;
     }
     .blog__post-meta {
@@ -568,7 +571,6 @@
     }
 }
 blockquote {
-    background: var(--tg-theme-primary);
     padding: 50px 44px 44px 75px;
     position: relative;
     z-index: 1;

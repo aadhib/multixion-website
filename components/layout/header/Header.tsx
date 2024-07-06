@@ -3,7 +3,7 @@ import Menu from '../Menu'
 import MobileMenu from '../MobileMenu'
 import OffcanvasMenu from '../OffcanvasMenu'
 
-export default function Header({ scroll, isMobileMenu, handleMobileMenu, isOffcanvasMenu, handleOffcanvasMenu }: any) {
+export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, handleOffcanvasMenu }: any) {
 
     return (
         <>

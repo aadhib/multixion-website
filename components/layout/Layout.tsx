@@ -10,14 +10,13 @@ import Footer from './footer/Footer'
 import Header from "./header/Header"
 
 interface LayoutProps {
-    headerStyle?: Number
-    footerStyle?: Number
+    fixedHeader?:boolean
     children?: React.ReactNode
     breadcrumbTitle?: string
 }
 
 
-export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children }: LayoutProps) {
+export default function Layout({ breadcrumbTitle, children, fixedHeader }: LayoutProps) {
     const [scroll, setScroll] = useState<boolean>(false)
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState<boolean>(false)
@@ -51,7 +50,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
     }, [])
     return (
         <>
-            <Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffcanvasMenu={isOffcanvasMenu} handleOffcanvasMenu={handleOffcanvasMenu} />
+            <Header scroll={fixedHeader ? true : scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffcanvasMenu={isOffcanvasMenu} handleOffcanvasMenu={handleOffcanvasMenu} />
             {/* <MobileMenu /> */}
             <DataBg />
             <MagnetsComponent />

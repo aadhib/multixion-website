@@ -18,9 +18,7 @@ export default function Footer1() {
                                     <div className="footer__widget footer__location">
                                         <h4 className="footer__widget-title">Location</h4>
                                         <div className="footer__content">
-                                            <p>Las Vegas, NV, USA
-                                                201 Spear Street,
-                                                San Francisco, CA, USA
+                                            <p>Office No. 7 <br /> 2nd Floor, 5391,<br /> Dammam 32241, Saudi Arabia
                                             </p>
                                         </div>
                                     </div>
@@ -48,8 +46,8 @@ export default function Footer1() {
                                     <div className="footer__widget footer__social">
                                         <ul className="list-wrap">
                                             <li><Link href="https://www.facebook.com/" target="_blank"><i className="social-icon fab fa-facebook-f" />FACEBOOK <i className="icon-arrow-top-left" /></Link></li>
-                                            <li><Link href="https://www.instagram.com/" target="_blank"><i className="social-icon fab fa-instagram" />INSTAGRAM <i className="icon-arrow-top-left" /></Link></li>
-                                            <li><Link href="https://twitter.com" target="_blank"><i className="social-icon fab fa-pinterest" />PINTEREST <i className="icon-arrow-top-left" /></Link></li>
+                                            <li><Link href="https://www.instagram.com/multixion/" target="_blank"><i className="social-icon fab fa-instagram" />INSTAGRAM <i className="icon-arrow-top-left" /></Link></li>
+                                            <li><Link href="https://www.linkedin.com/company/multixion/" target="_blank"><i className="social-icon fab fa-linkedin" />LINKEDIN <i className="icon-arrow-top-left" /></Link></li>
                                         </ul>
                                     </div>
                                 </div>

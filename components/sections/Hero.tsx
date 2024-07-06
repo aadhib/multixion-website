@@ -1,9 +1,8 @@
 import Link from "next/link"
 
-export default function Hero1() {
+export default function Hero() {
     return (
         <>
-
             <section className="hero-wrapper hero-1">
                 <div className="container">
                     <div className="hero-style1">
@@ -26,7 +25,7 @@ export default function Hero1() {
                                 <img src="/assets/img/icon/star-lock.svg" alt="img" />VISION 2030
                             </Link>
                             <Link href="/about" className="btn border-white wow img-custom-anim-right">
-                                <i className="icon-globe" />WORLD CLASS AGENCY
+                                <i className="icon-globe" />MODERN IT
                             </Link>
                         </div>
                         <div className="hero-thumb1 wow img-custom-anim-top position-relative">

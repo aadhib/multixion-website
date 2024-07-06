@@ -4,19 +4,16 @@ export default function BlogDetails() {
 
     return (
         <>
-
-            <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Blog Details">
+            <Layout fixedHeader>
                 <section className="blog__details-area pt-120 pb-120">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-8">
+                            <div className="col-lg-12">
                                 <div className="blog__details-wrap mb-100">
                                     <div className="blog__details-thumb">
-                                        <img src="/assets/img/blog/blog-details-1-1.jpg" alt="img" />
+                                        <img src="/assets/img/blog/blog-details-1-1.jpg" alt="img"/>
                                         <div className="blog__post-meta">
                                             <ul className="list-wrap">
-                                                <li><i className="far fa-user" /><Link href="/blog-details">ADMIN</Link></li>
-                                                <li><i className="far fa-comments" /><Link href="/blog-details">COMMENTS (0)</Link></li>
                                                 <li><i className="far fa-clock" />DECEMBER 14, 2023</li>
                                             </ul>
                                         </div>
@@ -56,124 +53,12 @@ export default function BlogDetails() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="inner__page-nav pt-30">
-                                            <Link href="/#" className="nav-btn text-md-end">
-                                                <div className="text-wrap mb-0">
-                                                    <i className="fa fa-arrow-left me-2" />
-                                                    <span>
-                                                        VIEW PRE PROJECT
-                                                    </span>
-                                                </div>
-                                            </Link>
-                                            <Link href="/#" className="nav-btn">
-                                                <div className="text-wrap mb-0">
-                                                    <span>
-                                                        VIEW NEXT PROJECT
-                                                    </span>
-                                                    <i className="fa fa-arrow-right ms-2" />
-                                                </div>
-                                            </Link>
-                                        </div>
                                     </div>
                                 </div>
-                                <div className="comment-respond">
-                                    <h3 className="comment-reply-title mb-20">02 COMMENTS</h3>
-                                    <form action="#" className="comment-form">
-                                        <p className="comment-notes">Your email address will not be published.Required fields are marked*</p>
-                                        <div className="row gy-35">
-                                            <div className="col-lg-6 form-group">
-                                                <label className="form-icon-left"><img src="/assets/img/icon/svg-img/user.svg" alt="icon" /></label>
-                                                <input type="text" className="form-control style-border" name="name" id="name" placeholder="Name*" />
-                                            </div>
-                                            <div className="col-lg-6 form-group">
-                                                <label className="form-icon-left"><img src="/assets/img/icon/svg-img/envelope.svg" alt="icon" /></label>
-                                                <input type="text" className="form-control style-border" name="email" id="email" placeholder="Email*" />
-                                            </div>
-                                            <div className="col-12 form-group">
-                                                <label className="form-icon-left"><img src="/assets/img/icon/svg-img/brush.svg" alt="icon" /></label>
-                                                <textarea name="message" placeholder="Message*" id="contactForm" className="form-control style-border" />
-                                            </div>
-                                        </div>
-                                        <button type="submit" className="btn btn-three square-btn mt-40">POST COMMENT</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div className="col-lg-4">
-                                <aside className="blog-sidebar">
-                                    <div className="blog-widget">
-                                        <div className="sidebar-search-form">
-                                            <form action="#">
-                                                <input type="text" placeholder="Search Here..." />
-                                                <button type="submit"><i className="fas fa-search" /></button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div className="blog-widget">
-                                        <h4 className="widget-title">Categories</h4>
-                                        <div className="sidebar-cat-list">
-                                            <ul className="list-wrap">
-                                                <li><Link href="/#">Archive <span>(3)</span></Link></li>
-                                                <li><Link href="/#">Branding <span>(6)</span></Link></li>
-                                                <li><Link href="/#">Company <span>(2)</span></Link></li>
-                                                <li><Link href="/#">Design <span>(1)</span></Link></li>
-                                                <li><Link href="/#">Business <span>(4)</span></Link></li>
-                                                <li><Link href="/#">Modern <span>(1)</span></Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="blog-widget widget-rc-post">
-                                        <h4 className="widget-title">Latest Posts</h4>
-                                        <div className="rc-post-wrap">
-                                            <div className="rc-post-item">
-                                                <div className="thumb">
-                                                    <Link href="/blog-details"><img src="/assets/img/blog/rc_post01.jpg" alt="img" /></Link>
-                                                </div>
-                                                <div className="content">
-                                                    <h4 className="title"><Link href="/blog-details">A GLIMPSE INTO MY
-                                                        CREATIVE PORTFOLIO</Link></h4>
-                                                    <span className="date">Jan 26, 2024</span>
-                                                </div>
-                                            </div>
-                                            <div className="rc-post-item">
-                                                <div className="thumb">
-                                                    <Link href="/blog-details"><img src="/assets/img/blog/rc_post02.jpg" alt="img" /></Link>
-                                                </div>
-                                                <div className="content">
-                                                    <h4 className="title"><Link href="/blog-details">DESIGNING THE FUTURE: A CREATIVE PORTFOLIO</Link></h4>
-                                                    <span className="date">Jan 26, 2024</span>
-                                                </div>
-                                            </div>
-                                            <div className="rc-post-item">
-                                                <div className="thumb">
-                                                    <Link href="/blog-details"><img src="/assets/img/blog/rc_post03.jpg" alt="img" /></Link>
-                                                </div>
-                                                <div className="content">
-                                                    <h4 className="title"><Link href="/blog-details">DIVING INTO SUSTAINABLE GARDENING</Link></h4>
-                                                    <span className="date">Jan 26, 2024</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="blog-widget">
-                                        <h4 className="widget-title">Tags</h4>
-                                        <div className="sidebar-tag-list">
-                                            <ul className="list-wrap">
-                                                <li><Link href="/#">Agency</Link></li>
-                                                <li><Link href="/#">Awards</Link></li>
-                                                <li><Link href="/#">Brand</Link></li>
-                                                <li><Link href="/#">Marketing</Link></li>
-                                                <li><Link href="/#">Contemporary</Link></li>
-                                                <li><Link href="/#">Education</Link></li>
-                                                <li><Link href="/#">Modern</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </aside>
                             </div>
                         </div>
                     </div>
                 </section>
-
             </Layout>
         </>
     )

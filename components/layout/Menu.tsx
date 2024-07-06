@@ -3,15 +3,15 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 export const services = [
-    { id: 1, name: 'IT Consulting', path: '/service/it-consulting' , cardcontent :'Tailored IT strategies to optimize your business operations and enhance efficiency.' },
-    { id: 2, name: 'Software Development', path: '/service/software-development' , cardcontent :'Custom software solutions designed to meet your specific business needs and drive growth.'},
-    { id: 3, name: 'Web Development', path: '/service/web-development', cardcontent :'Responsive and scalable web solutions that elevate your online presence and user experience.' },
-    { id: 4, name: 'Mobile App Development', path: '/service/mobile-app-development' , cardcontent :'Innovative mobile applications that engage users and deliver seamless experiences across platforms.'},
-    { id: 5, name: 'Cloud Solutions', path: '/service/cloud-solutions' , cardcontent :'Secure and scalable cloud infrastructure to streamline your operations and ensure data accessibility.' },
-    { id: 6, name: 'Cybersecurity', path: '/service/cybersecurity', cardcontent :'Robust cybersecurity measures to protect your digital assets and safeguard against potential threats.'},
-    { id: 7, name: 'Networking', path: '/service/networking' , cardcontent :'Efficient network solutions to optimize connectivity and facilitate seamless communication within your organization.' },
-    { id: 8, name: 'IT Support and Maintenance', path: '/service/it-support-maintenance' , cardcontent :'Proactive IT support and maintenance services to keep your systems running smoothly and minimize downtime.'},
-    { id: 9, name: 'Creative Branding Solutions', path: '/service/creative-branding-solutions', cardcontent :'Strategic branding initiatives that define your brand identity and resonate with your target audience.' },
+    { id: "01", name: 'IT Consulting', path: '/service/it-consulting' , cardContent :'Tailored IT strategies to optimize your business operations and enhance efficiency.' },
+    { id: "02", name: 'Software Development', path: '/service/software-development' , cardContent :'Custom software solutions designed to meet your specific business needs and drive growth.'},
+    { id: "03", name: 'Web Development', path: '/service/web-development', cardContent :'Responsive and scalable web solutions that elevate your online presence and user experience.' },
+    { id: "04", name: 'Mobile App Development', path: '/service/mobile-app-development' , cardContent :'Innovative mobile applications that engage users and deliver seamless experiences across platforms.'},
+    { id: "05", name: 'Cloud Solutions', path: '/service/cloud-solutions' , cardContent :'Secure and scalable cloud infrastructure to streamline your operations and ensure data accessibility.' },
+    { id: "06", name: 'Cybersecurity', path: '/service/cybersecurity', cardContent :'Robust cybersecurity measures to protect your digital assets and safeguard against potential threats.'},
+    { id: "07", name: 'Networking', path: '/service/networking' , cardContent :'Efficient network solutions to optimize connectivity and facilitate seamless communication within your organization.' },
+    { id: "08", name: 'IT Support and Maintenance', path: '/service/it-support-maintenance' , cardContent :'Proactive IT support and maintenance services to keep your systems running smoothly and minimize downtime.'},
+    { id: "09", name: 'Creative Branding Solutions', path: '/service/creative-branding-solutions', cardContent :'Strategic branding initiatives that define your brand identity and resonate with your target audience.' },
 
 ]
 
