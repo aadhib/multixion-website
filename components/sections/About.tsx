@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function About1() {
+export default function About() {
     return (
         <>
             <section className="about-area-5 black2-bg pt-90">

@@ -2,8 +2,8 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import { onSubmit } from "./actions"
 import { useRef, useState } from "react"
+import { onSubmit } from "./actions"
 
 export default function Contact() {
     const [submitStatus, setSubmitStatus] = useState({ success: false, error: false });
@@ -27,7 +27,7 @@ export default function Contact() {
     return (
         <>
 
-            <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Contact">
+            <Layout breadcrumbTitle="Contact">
                 <div>
                     <section className="contact-area-1 pt-120 pb-120 overflow-hidden">
                         <div className="container">

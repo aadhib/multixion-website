@@ -6664,7 +6664,7 @@ textarea.is-invalid {
 }
 .award-wrap-area .single-award-list {
   display: flex;
-  border-top: 2px solid var(--tg-heading-color);
+  border-top: 2px solid var(--tg-color-white-default);
   padding-bottom: 38px;
   padding-top: 38px;
   align-items: center;
@@ -6683,13 +6683,13 @@ textarea.is-invalid {
   }
 }
 .award-wrap-area .single-award-list:last-child {
-  border-bottom: 2px solid var(--tg-heading-color);
+  border-bottom: 2px solid var(--tg-color-white-default);
 }
 .award-wrap-area .single-award-list .award-year {
   font-size: 30px;
   font-weight: 400;
   font-family: var(--tg-heading-font-family);
-  color: var(--tg-heading-color);
+  color: var(--tg-color-white-default);
   letter-spacing: -0.03em;
   margin-left: auto;
   margin-right: 50px;
@@ -6718,6 +6718,10 @@ textarea.is-invalid {
   transition: 1s;
   position: relative;
 }
+.award-wrap-area .single-award-list .award-details p {
+  width: 85%;
+  color: var(--tg-color-white-default);
+}
 @media (max-width: 767.98px) {
   .award-wrap-area .single-award-list .award-details {
     margin-left: 30px;
@@ -6732,10 +6736,10 @@ textarea.is-invalid {
   text-transform: uppercase;
 }
 .award-wrap-area .single-award-list .award-details h4 a {
-  color: var(--tg-heading-color);
+  color: var(--tg-color-white-default);
 }
 .award-wrap-area .single-award-list .award-details h4 a:hover {
-  color: var(--tg-heading-color);
+  color: var(--tg-color-white-default);
 }
 @media (max-width: 767.98px) {
   .award-wrap-area .single-award-list .award-details h4 {
@@ -6747,14 +6751,18 @@ textarea.is-invalid {
   margin-bottom: -0.3em;
 }
 .award-wrap-area .single-award-list:hover {
-  background: var(--tg-color-white-default);
+  background: var(--tg-heading-color);
   border-color: var(--tg-color-white-default);
 }
 .award-wrap-area .single-award-list:hover ~ .single-award-list {
-  border-top-color: var(--tg-color-white-default);
+  border-top-color: var(--tg-heading-color);
 }
 .award-wrap-area .single-award-list:hover ~ .single-award-list ~ .single-award-list {
-  border-top-color: var(--tg-heading-color);
+  border-top-color: var(--tg-color-white-default);
+}
+
+.vision-title {
+  color: var(--tg-color-white-default);
 }
 
 /*=============================

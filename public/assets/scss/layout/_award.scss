@@ -9,7 +9,7 @@
     margin: 0;
     .single-award-list {
         display: flex;
-        border-top: 2px solid var(--tg-heading-color);
+        border-top: 2px solid var(--tg-color-white-default);
         padding-bottom: 38px;
         padding-top: 38px;
         align-items: center;
@@ -23,13 +23,13 @@
             padding-bottom: 38px;
         }
         &:last-child {
-            border-bottom: 2px solid var(--tg-heading-color);
+            border-bottom: 2px solid var(--tg-color-white-default);
         }
         .award-year {
             font-size: 30px;
             font-weight: 400;
             font-family: var(--tg-heading-font-family);
-            color: var(--tg-heading-color);
+            color: var(--tg-color-white-default);
             letter-spacing: -0.03em;
             margin-left: auto;
             margin-right: 50px;
@@ -53,6 +53,11 @@
             margin-left: 50px;
             transition: 1.0s;
             position: relative;
+            p{
+                width: 85%;
+                color: var(--tg-color-white-default);
+            }
+
             @media #{$xs} {
                 margin-left: 30px;
             }
@@ -64,9 +69,9 @@
                 letter-spacing: -0.03em;
                 text-transform: uppercase;
                 a {
-                    color: var(--tg-heading-color);
+                    color: var(--tg-color-white-default);
                     &:hover {
-                        color: var(--tg-heading-color);
+                        color: var(--tg-color-white-default);
                     }
                 }
                 @media #{$xs} {
@@ -79,18 +84,21 @@
             }
         }
         &:hover {
-            background: var(--tg-color-white-default);
+            background: var(--tg-heading-color);
             border-color: var(--tg-color-white-default);
             ~ .single-award-list {
-                border-top-color: var(--tg-color-white-default);
+                border-top-color: var(--tg-heading-color);
                 ~ .single-award-list {
-                    border-top-color: var(--tg-heading-color);
+                    border-top-color: var(--tg-color-white-default);
                 }
             }
         }
     }
 }
 
+.vision-title{
+    color: var(--tg-color-white-default);
+}
 
 /*=============================
     Award 06

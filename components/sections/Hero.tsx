@@ -25,7 +25,7 @@ export default function Hero() {
                                 <img src="/assets/img/icon/star-lock.svg" alt="img" />VISION 2030
                             </Link>
                             <Link href="/about" className="btn border-white wow img-custom-anim-right">
-                                <i className="icon-globe" />MODERN IT
+                                <i className="icon-globe" />BUILDING FOR IMPACT
                             </Link>
                         </div>
                         <div className="hero-thumb1 wow img-custom-anim-top position-relative">

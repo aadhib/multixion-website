@@ -39,7 +39,7 @@ export default function Team() {
 
     return (
         <>
-            <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Team">
+            <Layout breadcrumbTitle="Team">
                 <div>
                     <section className="pt-120 pb-120">
                         <div className="container">

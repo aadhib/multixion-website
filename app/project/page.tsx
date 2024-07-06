@@ -11,7 +11,7 @@ export default function Project() {
     return (
         <>
 
-            <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Portfolio">
+            <Layout breadcrumbTitle="Portfolio">
                 <div>
                     <ProjectFilterOne />
                     {/*======== / Project Section ========*/}

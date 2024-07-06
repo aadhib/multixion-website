@@ -1,10 +1,9 @@
 import Layout from "@/components/layout/Layout"
-import Link from "next/link"
 
 export default function ServiceDetails() {
     return (
         <>
-            <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="Services Details">
+            <Layout breadcrumbTitle="Services Details">
                 <div>
                     <div className="service-details-page-area pt-110">
                         <div className="container">

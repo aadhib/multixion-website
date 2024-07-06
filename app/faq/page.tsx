@@ -40,7 +40,7 @@ export default function Faq() {
     return (
         <>
 
-            <Layout headerStyle={8} footerStyle={2} breadcrumbTitle="FAQs">
+            <Layout breadcrumbTitle="FAQs">
                 <div>
                     <section className="faq-area-2 pt-120 pb-120">
                         <div className="container">
