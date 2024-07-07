@@ -9,6 +9,7 @@ export default function Service() {
     return (
         <>
             {/*======== / Service Section ========*/}
+
             <Layout breadcrumbTitle="Our Services">
                 <div>
                     <section className="service-area-2 pt-120 pb-120">
@@ -37,6 +38,7 @@ export default function Service() {
                     </section>
 
                     {/*======== / Skill Section ========*/}
+
                     <section className="skill-area-1 pt-120 pb-120 black-bg position-relative">
                         <div className="skill-area-bg-shape1 square-shape-wrap">
                             <div className="square-shape1" />
@@ -93,6 +95,7 @@ export default function Service() {
                     </section>
 
                     {/*======== / FAQ Section ========*/}
+
                     <section className="faq-area-2 pt-120 pb-120 gray-bg">
                         <div className="container">
                             <div className="row justify-content-center">

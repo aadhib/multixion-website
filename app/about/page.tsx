@@ -111,7 +111,9 @@ export default function About() {
                 </section>
 
                 {/*======== / Counter Section ========*/}
+
                 {/*=========Skill Area 01==============*/}
+
                 <section className="skill-area-1 pt-120 pb-120 black-bg position-relative">
                     <div className="skill-area-bg-shape1 square-shape-wrap">
                         <div className="square-shape1" />
@@ -178,7 +180,9 @@ export default function About() {
                     </div>
                 </section>
                 {/*======== / Skill Section ========*/}
+
                 {/*========Team Area==============*/}
+
                 {/* <section className="pt-110 pb-120 position-relative">
                     <div className="contact-area-bg-shape1 square-shape-wrap d-lg-inline-flex d-none">
                         <div className="square-shape1" />
@@ -237,9 +241,9 @@ export default function About() {
                     </div>
                 </section> */}
                 {/*======== / Team Section ========*/}
-                {/*==============================
-Award Area
-==============================*/}
+
+                {/*==============================Award Area==============================*/}
+
                 <section className="award-area-1 pt-110 pb-120 theme-bg">
                     <div className="container">
                         <div className="row">
@@ -304,7 +308,9 @@ Award Area
                     </div>
                 </section>
                 {/*======== / Award Section ========*/}
+
                 {/*=================Marquee Area====================*/}
+
                 <div className="container-fluid px-0 overflow-hidden pb-30 pt-30 theme-bg">
                     <div className="slider__marquee clearfix marquee-wrap style3">
                         <Marquee className="marquee_mode marquee__group">
@@ -318,6 +324,7 @@ Award Area
                     </div>
                 </div>
                 {/*======== / Marquee Section ========*/}
+
 
 
             </Layout>

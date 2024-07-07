@@ -58,9 +58,9 @@ export default function ServiceDetails() {
                         </div>
                     </div>
                     {/*======== / Service Details Area ========*/}
-                    {/*==============================
-    Project Area 03
-    ==============================*/}
+
+                    {/*==============================Project Area 03==============================*/}
+
                     <section className="project-area-3 pt-110 pb-120 overflow-hidden">
                         <div className="container">
                             <div className="section__title mb-50 text-center">

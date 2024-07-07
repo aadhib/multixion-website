@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "The Multiverse is the collection of alternate universes",
-        "img": "1-1.jpg",
+        "img": "1-2.jpg",
         "category": "Tech",
         "author": "miranda h.",
         "date": "25 April 2023"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "That share a universal hierarchy a large variety of these",
-        "img": "1-1.jpg",
+        "img": "1-3.jpg",
         "category": "Movie",
         "author": "miranda h.",
         "date": "25 April 2023"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Universes were originated from another due to a major",
-        "img": "1-1.jpg",
+        "img": "2-1.jpg",
         "category": "Sports",
         "author": "miranda h.",
         "date": "25 April 2023"
@@ -34,32 +34,8 @@
     {
         "id": 5,
         "title": "A hypothetical collection of potentially diverse",
-        "img": "1-1.jpg",
+        "img": "2-2.jpg",
         "category": "Gaming",
-        "author": "miranda h.",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 6,
-        "title": "Stanford physicists Andrei Linde In a new study",
-        "img": "1-1.jpg",
-        "category": "Tech",
-        "author": "miranda h.",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 7,
-        "title": "Accessible to telescopes, is about 90 billion years",
-        "img": "1-1.jpg",
-        "category": "Movie",
-        "author": "miranda h.",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 8,
-        "title": "Observable universes each of which would comprise",
-        "img": "1-1.jpg",
-        "category": "Sports",
         "author": "miranda h.",
         "date": "25 April 2023"
     }

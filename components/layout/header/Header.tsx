@@ -53,7 +53,7 @@ export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, hand
                         </div>
                         <div className="tgmobile__search">
                             <form action="#">
-                                <input type="text" placeholder="Search here..." />
+                                <input type="text" id='searchbar' placeholder="Search here..." />
                                 <button><i className="fas fa-search" /></button>
                             </form>
                         </div>

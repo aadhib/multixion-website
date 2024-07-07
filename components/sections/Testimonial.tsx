@@ -1,6 +1,6 @@
 import TestimonialSlider1 from '../slider/TestimonialSlider'
 
-export default function Testimonial1() {
+export default function Testimonial() {
     return (
         <>
             <section className="testimonial-area-1 pb-120 dark-bg">

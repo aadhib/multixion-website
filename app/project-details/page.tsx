@@ -109,9 +109,9 @@ export default function ProjectDetails() {
                         </div>
                     </section>
                     {/*======== / Project Section ========*/}
-                    {/*==============================
-    Marquee Area
-    ==============================*/}
+
+                    {/*==============================Marquee Area==============================*/}
+
                     <div className="container-fluid px-0 overflow-hidden pb-30 pt-30 theme-bg">
                         <div className="slider__marquee clearfix marquee-wrap style3">
                             <Marquee className="marquee_mode marquee__group">

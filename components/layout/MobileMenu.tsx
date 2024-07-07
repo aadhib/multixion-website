@@ -3,7 +3,8 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from 'react'
-import { services } from "./Menu"
+import services from "@/util/services.json"
+
 interface ActiveState {
     status: boolean
     key: number
