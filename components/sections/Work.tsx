@@ -49,7 +49,7 @@ export default function Work() {
                                         </ul>
                                     </div>
                                     <div className="tg-button-wrap mt-70">
-                                        <Link href="/about" className="link-btn">
+                                        <Link href="/project" className="link-btn">
                                             View Project
                                             <i className="icon-arrow-top-left" />
                                         </Link>
@@ -80,7 +80,7 @@ export default function Work() {
                                     </ul>
                                 </div>
                                 <div className="tg-button-wrap mt-70">
-                                    <Link href="/about" className="link-btn">
+                                    <Link href="/project" className="link-btn">
                                         View Project
                                         <i className="icon-arrow-top-left" />
                                     </Link>
@@ -89,7 +89,7 @@ export default function Work() {
                         </div>
                     </div>
                     <div className="tg-button-wrap mt-80 justify-content-center">
-                        <Link href="/about" className="btn big-circle-btn style2 gsap-magnetic">
+                        <Link href="/project" className="btn big-circle-btn style2 gsap-magnetic">
                             VIEW ALL
                         </Link>
                     </div>

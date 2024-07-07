@@ -30,7 +30,7 @@ const swiperOptions = {
         prevEl: '.testimonial-button-prev',
     },
 }
-export default function TestimonialSlider1() {
+export default function TestimonialSlider() {
     return (
         <>
             <div className="swiper testimonial-active" id="testimonialSlider1">

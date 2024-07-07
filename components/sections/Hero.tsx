@@ -28,12 +28,6 @@ export default function Hero() {
                                 <i className="icon-globe" />BUILDING FOR IMPACT
                             </Link>
                         </div>
-                        <div className="hero-thumb1 wow img-custom-anim-top position-relative">
-                            <div className="thumb">
-                                <img src="/assets/img/hero/hero-1-1.jpg" alt="hero" />
-                            </div>
-                            <Link className="btn big-circle-btn gsap-magnetic" href="/about"><i className="icon-arrow-top-left" /></Link>
-                        </div>
                     </div>
                 </div>
             </section>

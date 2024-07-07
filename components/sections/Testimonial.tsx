@@ -1,4 +1,4 @@
-import TestimonialSlider1 from '../slider/TestimonialSlider'
+import TestimonialSlider from '../slider/TestimonialSlider'
 
 export default function Testimonial() {
     return (
@@ -18,7 +18,7 @@ export default function Testimonial() {
                         </div>
                         <div className="col-xl-7">
                             <div className="testimonial__item-wrap wow img-custom-anim-right">
-                                <TestimonialSlider1 />
+                                <TestimonialSlider />
                             </div>
                         </div>
                     </div>

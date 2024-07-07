@@ -5,7 +5,6 @@ export default function ProjectDetails() {
 
     return (
         <>
-
             <Layout breadcrumbTitle="Portfolio Details">
                 <div>
                     <section className="project-details-page-area pt-110 pb-120 overflow-hidden">
@@ -125,7 +124,6 @@ export default function ProjectDetails() {
                         </div>
                     </div>
                 </div>
-
             </Layout>
         </>
     )
