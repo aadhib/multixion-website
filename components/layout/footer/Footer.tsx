@@ -27,7 +27,7 @@ export default function Footer1() {
                                     <div className="footer__widget footer__conversation">
                                         <h4 className="footer__widget-title">Start a conversation</h4>
                                         <div className="footer__content">
-                                            <p><Link href="mailto:work@Multixiondesign.com">work@Multixiondesign.com</Link>
+                                            <p><Link href="mailto:work@Multixiondesign.com">work@multixiondesign.com</Link>
                                             </p>
                                         </div>
                                     </div>

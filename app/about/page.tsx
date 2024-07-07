@@ -178,10 +178,8 @@ export default function About() {
                     </div>
                 </section>
                 {/*======== / Skill Section ========*/}
-                {/*==============================
-Team Area
-==============================*/}
-                <section className="pt-110 pb-120 position-relative">
+                {/*========Team Area==============*/}
+                {/* <section className="pt-110 pb-120 position-relative">
                     <div className="contact-area-bg-shape1 square-shape-wrap d-lg-inline-flex d-none">
                         <div className="square-shape1" />
                         <div className="square-shape2" />
@@ -237,7 +235,7 @@ Team Area
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/*======== / Team Section ========*/}
                 {/*==============================
 Award Area

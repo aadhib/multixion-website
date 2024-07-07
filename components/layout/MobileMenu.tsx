@@ -37,7 +37,7 @@ export default function MobileMenu() {
                 <li className="menu-item-has-children"><Link href="/service">SERVICES</Link>
                     <ul className="sub-menu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                         {services.map(({path,name})=>{
-                            return  <li className={pathname == path ? "active" : ""}><Link href={path}>{name}</Link></li>
+                            return  <li key={path} className={pathname == path ? "active" : ""}><Link href={path}>{name}</Link></li>
                         })}
                     </ul>
                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleClick(2)}><span className="plus-line" /></div>

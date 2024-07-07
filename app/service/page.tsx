@@ -16,7 +16,7 @@ export default function Service() {
                             <div className="row gx-30 gy-30">
                                 {services.map(({id,name,path,cardContent}) => {
                                     return (
-                                        <div className="col-xl-4 col-md-6">
+                                        <div key={id} className="col-xl-4 col-md-6">
                                             <div className="service-card style2">
                                                 <div className="service-card-img">
                                                     <img src="/assets/img/service/1-3.jpg" alt="img" />
