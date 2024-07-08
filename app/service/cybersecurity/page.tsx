@@ -5,7 +5,7 @@ export default function ServiceDetails() {
         <>
             <Layout breadcrumbTitle="Services Details">
                 <div>
-                    <div className="service-details-page-area pt-110">
+                    <div className="service-details-page-area pt-110 pb-110">
                         <div className="container">
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-xl-6">
@@ -27,7 +27,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100" src="/assets/img/service/service-details-1-1.jpg" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/6-2.jpeg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Cybersecurity Deliverables</h3>
                                 <p className="mb-30">Our cybersecurity services encompass a wide range of solutions tailored to safeguard your business from digital threats. From proactive threat detection and incident response to comprehensive security audits and robust network protection, we ensure your business remains secure.</p>
                                 <p>We offer advanced threat detection and response capabilities to identify and mitigate security incidents swiftly. Our security audits and assessments help uncover vulnerabilities and implement necessary safeguards. Network and endpoint security solutions provide robust protection for your IT infrastructure, while our cloud security services ensure the safety of your data in the cloud.</p>
@@ -51,48 +51,11 @@ export default function ServiceDetails() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <img className="w-100" src="/assets/img/service/service-details-1-2.jpg" alt="img" />
+                                    <img className="w-100 bw-filter" src="/assets/img/service/6-3.png" alt="img" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/*======== / Service Details Area ========*/}
-
-                    {/*==============================Project Area 03==============================*/}
-
-                    {/* <section className="project-area-3 pt-110 pb-120 overflow-hidden">
-                        <div className="container">
-                            <div className="section__title mb-50 text-center">
-                                <h2 className="title">Other Projects</h2>
-                            </div>
-                            <div className="row gy-60 justify-content-between masonary-active">
-                                <div className="col-lg-6 filter-item">
-                                    <div className="project-card-item8 shine-animate-item wow img-custom-anim-top">
-                                        <div className="project-card-thumb">
-                                            <Link className="shine-animate" href="/project-details">
-                                                <img className="w-100" src="/assets/img/project/project9-1.jpg" alt="img" />
-                                            </Link>
-                                        </div>
-                                        <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">Cybersecurity Project 1</Link></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 filter-item">
-                                    <div className="project-card-item8 mt-lg-200 shine-animate-item wow img-custom-anim-right">
-                                        <div className="project-card-thumb">
-                                            <Link className="shine-animate" href="/project-details">
-                                                <img className="w-100" src="/assets/img/project/project9-2.jpg" alt="img" />
-                                            </Link>
-                                        </div>
-                                        <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">Cybersecurity Project 2</Link></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> */}
                 </div>
             </Layout>
         </>

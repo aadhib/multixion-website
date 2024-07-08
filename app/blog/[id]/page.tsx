@@ -16,7 +16,6 @@ interface Post {
 export default function BlogDetails() {
     let Router = useParams()
     const [blogPost, setBlogPost] = useState<Post | null>(null)
-    const {title,category,date,img} = blogPost as Post;
     const id = Router?.id
 
     useEffect(() => {

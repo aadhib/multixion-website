@@ -2,25 +2,24 @@
 
 import Accordion from '@/components/elements/Accordion'
 import Layout from "@/components/layout/Layout"
-import { services } from '@/components/layout/Menu'
+import services from '@/util/services.json'
 import Link from "next/link"
 export default function Service() {
 
     return (
         <>
             {/*======== / Service Section ========*/}
-
             <Layout breadcrumbTitle="Our Services">
                 <div>
                     <section className="service-area-2 pt-120 pb-120">
                         <div className="container">
                             <div className="row gx-30 gy-30">
-                                {services.map(({id,name,path,cardContent}) => {
+                                {services.map(({ id, name, path, cardContent, cardImage }) => {
                                     return (
                                         <div key={id} className="col-xl-4 col-md-6">
                                             <div className="service-card style2">
                                                 <div className="service-card-img">
-                                                    <img src="/assets/img/service/1-3.jpg" alt="img" />
+                                                    <img src={"/assets/img/service/" + cardImage} alt="img" />
                                                 </div>
                                                 <h5 className="service-card-number">{id}</h5>
                                                 <h4 className="service-card-title"><Link href={cardContent}>{name}</Link></h4>

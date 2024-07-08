@@ -39,16 +39,13 @@ export default function Contact() {
                                     <div className="contact__info-wrap">
                                         <ul className="list-wrap">
                                             <li>
-                                                <h6 className="title">Phone</h6>
-                                                <Link href="/tel:0123456789">+(2) 578-365-379</Link>
-                                            </li>
-                                            <li>
                                                 <h6 className="title">Email</h6>
                                                 <Link href="mailto:service@multixion.com">service@multixion.com</Link>
                                             </li>
                                             <li>
                                                 <h6 className="title">Headquarters</h6>
-                                                27 Division St, New York, <br className="d-md-block d-none" /> NY 10002, USA
+                                                Office No. 7
+                                                2nd Floor, 5391, <br className="d-md-block d-none" /> Dammam 32241, Saudi Arabia
                                             </li>
                                             <li>
                                                 <Link href="https://www.google.com/maps" className="link-btn">

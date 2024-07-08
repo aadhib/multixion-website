@@ -3,7 +3,7 @@ import TestimonialSlider from '../slider/TestimonialSlider'
 export default function Testimonial() {
     return (
         <>
-            <section className="testimonial-area-1 pb-120 dark-bg">
+            <section className="testimonial-area-1 pt-120 pb-120 dark-bg">
                 <div className="section__title testimonial-section__title">
                     <div className="container">
                         <h2 className="title text-white wow img-custom-anim-left">OUR TESTIMONIAL</h2>

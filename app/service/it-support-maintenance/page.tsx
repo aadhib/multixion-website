@@ -5,7 +5,7 @@ export default function ServiceDetails() {
         <>
             <Layout breadcrumbTitle="Services Details">
                 <div>
-                    <div className="service-details-page-area pt-110">
+                    <div className="service-details-page-area pt-110 pb-110">
                         <div className="container">
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-xl-6">
@@ -27,7 +27,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100" src="/assets/img/service/service-details-1-1.jpg" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/8-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Maintenance Deliverables</h3>
                                 <p className="mb-30">Our IT support and maintenance services are designed to keep your systems running smoothly and efficiently. We provide ongoing monitoring, proactive maintenance, and prompt resolution of technical issues to minimize downtime and ensure the continuity of your business operations.</p>
                                 <p>With our support services, you gain access to a team of skilled IT professionals who can address a wide range of technical challenges. We offer remote and on-site support, software updates, patch management, and network administration to keep your IT environment secure and up-to-date.</p>
@@ -51,48 +51,11 @@ export default function ServiceDetails() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <img className="w-100" src="/assets/img/service/service-details-1-2.jpg" alt="img" />
+                                    <img className="w-100 bw-filter" src="/assets/img/service/8-3.png" alt="img" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/*======== / Service Details Area ========*/}
-
-                    {/*==============================Project Area 03==============================*/}
-
-                    {/* <section className="project-area-3 pt-110 pb-120 overflow-hidden">
-                        <div className="container">
-                            <div className="section__title mb-50 text-center">
-                                <h2 className="title">Other Projects</h2>
-                            </div>
-                            <div className="row gy-60 justify-content-between masonary-active">
-                                <div className="col-lg-6 filter-item">
-                                    <div className="project-card-item8 shine-animate-item wow img-custom-anim-top">
-                                        <div className="project-card-thumb">
-                                            <Link className="shine-animate" href="/project-details">
-                                                <img className="w-100" src="/assets/img/project/project9-1.jpg" alt="img" />
-                                            </Link>
-                                        </div>
-                                        <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">IT Support Project 1</Link></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 filter-item">
-                                    <div className="project-card-item8 mt-lg-200 shine-animate-item wow img-custom-anim-right">
-                                        <div className="project-card-thumb">
-                                            <Link className="shine-animate" href="/project-details">
-                                                <img className="w-100" src="/assets/img/project/project9-2.jpg" alt="img" />
-                                            </Link>
-                                        </div>
-                                        <div className="project-card-content">
-                                            <h4 className="project-card-title"><Link href="/project-details">IT Support Project 2</Link></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> */}
                 </div>
             </Layout>
         </>

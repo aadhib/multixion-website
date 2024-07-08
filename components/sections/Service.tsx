@@ -46,12 +46,12 @@ export default function Service() {
                             <div id="tabs-content">
                                 <div id="tab1" className="service1-tab-content">
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/1-1.jpg" alt="img" />
+                                        <img src="/assets/img/service/4-1.jpeg" alt="img" />
                                     </div>
                                 </div>
                                 <div id="tab2" className="service1-tab-content" style={{ display: 'none' }}>
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/1-2.jpg" alt="img" />
+                                        <img src="/assets/img/service/6-1.jpg" alt="img" />
                                     </div>
                                 </div>
                                 <div id="tab3" className="service1-tab-content" style={{ display: 'none' }}>
@@ -61,7 +61,7 @@ export default function Service() {
                                 </div>
                                 <div id="tab4" className="service1-tab-content" style={{ display: 'none' }}>
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/1-2.jpg" alt="img" />
+                                        <img src="/assets/img/service/3-2.jpg" alt="img" />
                                     </div>
                                 </div>
                             </div>
