@@ -4,7 +4,7 @@ export default function Error() {
 
     return (
         <>
-            <Layout>
+            <Layout fixedHeader={true}>
                 <div className="error-wrapper text-center pt-200 pb-120">
                     <div className="container">
                         <img className="mb-50" src="/assets/img/others/error-img.png" alt="error" />

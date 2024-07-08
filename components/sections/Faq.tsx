@@ -1,4 +1,4 @@
-import Accordion2 from '../elements/Accordion2'
+import Accordion from '../elements/Accordion'
 
 export default function Faq1() {
     return (
@@ -10,7 +10,7 @@ export default function Faq1() {
                     </div>
                     <div className="row">
                         <div className="col-lg-12">
-                            <Accordion2 />
+                            <Accordion/>
                         </div>
                     </div>
                 </div>

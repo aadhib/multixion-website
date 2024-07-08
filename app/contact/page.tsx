@@ -39,6 +39,10 @@ export default function Contact() {
                                     <div className="contact__info-wrap">
                                         <ul className="list-wrap">
                                             <li>
+                                                <h6 className="title">Phone</h6>
+                                                <Link href="/tel:+966575741941">+966 575741941</Link>
+                                            </li>
+                                            <li>
                                                 <h6 className="title">Email</h6>
                                                 <Link href="mailto:service@multixion.com">service@multixion.com</Link>
                                             </li>
@@ -48,7 +52,7 @@ export default function Contact() {
                                                 2nd Floor, 5391, <br className="d-md-block d-none" /> Dammam 32241, Saudi Arabia
                                             </li>
                                             <li>
-                                                <Link href="https://www.google.com/maps" className="link-btn">
+                                                <Link href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d492.10091730605825!2d50.115802745883215!3d26.432261328377557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fb713bcf3c53%3A0x1567099174dd2236!2zRURKQTc0OTDYjCA3NDkwINi02KfYsdi5INij2KjZiiDYp9mE2K3YtdmK2YYg2KfZhNiz2YTZhdmK2IwgNTI5NywgTXVoYW1tZWQgSWJuIFNhdWQsIERhbW1hbSAzMjI0MQ!5e0!3m2!1sen!2ssa!4v1719991143024!5m2!1sen!2ssa" className="link-btn">
                                                     See on Google Map
                                                     <i className="icon-arrow-top-left" />
                                                 </Link>
