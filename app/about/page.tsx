@@ -124,13 +124,13 @@ export default function About() {
                         <div className="row gy-40 align-items-center">
                             <div className="col-xl-5">
                                 <div className="skill-thumb-box1 wow img-custom-anim-left">
-                                    <img src="/assets/img/others/skill1-1.jpg" alt="img" />
-                                    <div className="square-shape-wrap">
+                                <img src="/assets/img/service/thumbnail/service-thumb4.jpg" alt="img" height="600" width="500" style={{ filter: "grayscale(100%)" }} />
+                                    {/* <div className="square-shape-wrap">
                                         <div className="square-shape1" />
                                         <div className="square-shape2" />
                                         <div className="square-shape3" />
                                         <div className="square-shape4" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-xl-7">

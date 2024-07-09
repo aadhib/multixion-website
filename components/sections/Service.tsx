@@ -46,22 +46,22 @@ export default function Service() {
                             <div id="tabs-content">
                                 <div id="tab1" className="service1-tab-content">
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/4-1.jpeg" alt="img" />
+                                        <img src="/assets/img/service/thumbnail/service-thumb1.jpg" alt="img" />
                                     </div>
                                 </div>
                                 <div id="tab2" className="service1-tab-content" style={{ display: 'none' }}>
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/6-1.jpg" alt="img" />
+                                        <img src="/assets/img/service/thumbnail/service-thumb2.jpg" alt="img" />
                                     </div>
                                 </div>
                                 <div id="tab3" className="service1-tab-content" style={{ display: 'none' }}>
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/1-1.jpg" alt="img" />
+                                        <img src="/assets/img/service/thumbnail/service-thumb3.jpg" alt="img" />
                                     </div>
                                 </div>
                                 <div id="tab4" className="service1-tab-content" style={{ display: 'none' }}>
                                     <div className="service-thumb">
-                                        <img src="/assets/img/service/3-2.jpg" alt="img" />
+                                        <img src="/assets/img/service/thumbnail/service-thumb4.jpg" alt="img" />
                                     </div>
                                 </div>
                             </div>
@@ -69,17 +69,17 @@ export default function Service() {
                         <div className="col-lg-7">
                             <ul className="service1-tab-wrap" id="tabs-nav">
                                 <li>
-                                    <div className="service1-tab-item" data-bs-toggle="tab" data-bs-target="#tab2">
+                                    <div className="service1-tab-item" data-bs-toggle="tab" data-bs-target="#tab1">
                                         <Link className="service1-tab-single" href="/service/web-development">Web Development <i className="icon-arrow-top-left" /></Link>
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="service1-tab-item" data-bs-toggle="tab" data-bs-target="#tab3">
+                                    <div className="service1-tab-item" data-bs-toggle="tab" data-bs-target="#tab2">
                                         <Link className="service1-tab-single" href="/service/mobile-app-development">Mobile App Development <i className="icon-arrow-top-left" /></Link>
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="service1-tab-item" data-bs-toggle="tab" data-bs-target="#tab4">
+                                    <div className="service1-tab-item" data-bs-toggle="tab" data-bs-target="#tab3">
                                         <Link className="service1-tab-single" href="/service/cloud-solutions">Cloud Solutions <i className="icon-arrow-top-left" /></Link>
                                     </div>
                                 </li>

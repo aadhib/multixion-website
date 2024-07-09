@@ -48,7 +48,7 @@ export default function Service() {
                             <div className="row gy-40 align-items-center">
                                 <div className="col-xl-5">
                                     <div className="skill-thumb-box1 wow img-custom-anim-left">
-                                        <img src="/assets/img/others/skill1-1.jpg" alt="img" />
+                                        <img src="/assets/img/service/1-1.jpg" alt="img" />
                                         <div className="square-shape-wrap">
                                             <div className="square-shape1" />
                                             <div className="square-shape2" />
@@ -66,25 +66,25 @@ export default function Service() {
                                         <div className="skill-feature">
                                             <h3 className="skill-feature_title">BRANDING</h3>
                                             <div className="progress">
-                                                <div className="progress-bar" style={{ width: '90%' }}>
+                                                <div className="progress-bar" style={{ width: '95%' }}>
                                                 </div>
-                                                <div className="progress-value"><span className="counter-number">90</span>%</div>
+                                                <div className="progress-value"><span className="counter-number">95</span>%</div>
                                             </div>
                                         </div>
                                         <div className="skill-feature">
                                             <h3 className="skill-feature_title">DEVELOPMENT</h3>
                                             <div className="progress">
-                                                <div className="progress-bar" style={{ width: '70%' }}>
+                                                <div className="progress-bar" style={{ width: '98%' }}>
                                                 </div>
-                                                <div className="progress-value"><span className="counter-number">70</span>%</div>
+                                                <div className="progress-value"><span className="counter-number">98</span>%</div>
                                             </div>
                                         </div>
                                         <div className="skill-feature">
                                             <h3 className="skill-feature_title">MARKETING</h3>
                                             <div className="progress">
-                                                <div className="progress-bar" style={{ width: '69%' }}>
+                                                <div className="progress-bar" style={{ width: '90%' }}>
                                                 </div>
-                                                <div className="progress-value"><span className="counter-number">69</span>%</div>
+                                                <div className="progress-value"><span className="counter-number">90</span>%</div>
                                             </div>
                                         </div>
                                     </div>
