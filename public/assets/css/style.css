@@ -8107,9 +8107,9 @@ textarea.is-invalid {
 }
 .blog__details-thumb img {
   min-height: 250px;
+  max-height: 400px;
   aspect-ratio: 16/9;
-  width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .blog__details-thumb .blog__post-meta {
   position: absolute;

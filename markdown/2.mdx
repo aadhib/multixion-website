@@ -1,0 +1,69 @@
+---
+id: 2
+title: "Node.JS : How does it execute JavaScript on your PC Without a Browser?"
+img: "2-1.png"
+category: "Web Development"
+date: "25 April 2023"
+---
+
+### Node.JS : How does it execute JavaScript on your PC without a browser?**
+
+Let’s discuss a little Backend too? But let’s understand the fundamentals? What are these technical jargons which we usually hear. 
+
+#### What exactly is Node.JS?
+
+Node.js is a Event-driven JavaScript runtime environment that achieves low latency and high movement of output by taking a “non-blocking” approach to serving requests. In other words, Node.js wastes no time or resources on waiting for Input/Output requests to return. 
+
+It is built on Chrome’s V8 JavaScript engine. This engine takes your JavaScript code and converts it into a faster machine code. Machine code is low-level code which the computer can run without needing to first interpret it. You can use TypeScript or CoffeeScript as well for Node.JS.
+
+***JavaScript —> C/C++ (V8 Engine) —> Assembly Code —> Machine Code.***
+
+##### What is this Non-Blocking Approach?
+
+Image there are two requests X and Y , in a blocking approach , X request is first resolved and then only moves to Y request which means Y has to wait till X request is resolved.
+
+Request X (20ms)
+
+—> Response X (2ms)
+
+—> Request Y (20ms)
+
+ —> Response Y (2ms)
+
+Total Time : 44ms
+
+So basically in non-blocking approach you can send requests to both X and Y before resolving X , this means parallely you are able to send requests. making it faster!
+
+Request X (2ms)
+
+—> Request Y (2ms)
+
+—> Response X (20ms)
+
+—> Response Y (Parallel to X)
+
+Total Time : 24 ms
+
+But JavaScript is a single threaded language is what some of you might be thinking? Well this non-blocking I/O eliminates the need for multi-threading since the server can handle multiple requests at the same time.
+
+Okay , you have got an idea now but still feeling kind of lost because we have one more part to discuss : What do I mean by Event-driven?
+
+Node.js makes extensive use of events which is one of the reasons behind its speed , It is used to synchronize the occurrence of multiple events and to make the program as simple as possible.
+
+**In most simple words If I try** : 
+
+There are callback functions called event-handlers which is called when an event is triggered.
+
+An event loop that listens for event triggers and calls the corresponding event handles for that event. 
+
+The functions which listens for a trigger is called an observer.
+
+There are two types of Events :
+
+1) 𝑺𝒚𝒔𝒕𝒆𝒎 𝑬𝒗𝒆𝒏𝒕𝒔 : C++ core from a library called libuv.
+
+(For example, finished reading a file).
+
+2) 𝑪𝒖𝒔𝒕𝒐𝒎 𝑬𝒗𝒆𝒏𝒕𝒔 : JavaScript core.
+
+Comibining these functions and ideas we can create an Event-Driven Non-Blocking program that acts fast , and like a muti-threaded output.

@@ -1,63 +1,68 @@
 'use client'
-import Layout from "@/components/layout/Layout"
-import data from "@/util/blog.json"
-import Link from "next/link"
-import { useParams } from "next/navigation"
-import { useEffect, useState } from "react"
 
-interface Post {
-    id: number
-    title: string
-    img: string
-    category: string
-    date: string
-}
+import Loading from "@/app/loading";
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
+import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import { BlogInterface } from "../page";
+
 
 export default function BlogDetails() {
-    let Router = useParams()
-    const [blogPost, setBlogPost] = useState<Post | null>(null)
-    const id = Router?.id
+    const [blog, setBlog] = useState<BlogInterface | null>(null);
+    const { id } = useParams();
+
 
     useEffect(() => {
-        if (id) {
-            const post = data?.find((post: Post) => String(post.id) === String(id))
-            setBlogPost(post || null)
-        }
-    }, [id])
+        const fetchPost = async () => {
+            try {
+                const res = await fetch(`/blog/${id}/api`);
+                console.log(res);
+
+                if (!res.ok) {
+                    throw new Error('Failed to fetch post');
+                }
+                const { frontmatter, content } = await res.json();
+                setBlog({ frontmatter, content });
+            } catch (error) {
+                console.error(error);
+            }
+        };
+
+        fetchPost();
+    }, []);
+
+    if (!blog) {
+        return <Loading />
+    }
+
+    const { frontmatter, content } = blog;
 
     return (
         <>
             <Layout fixedHeader>
-                <section className="blog__details-area pt-120 pb-120">
+                <section className="blog__details-area pt-120 pb-120" key={frontmatter?.id}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="blog__details-wrap mb-100">
                                     <div className="blog__details-thumb">
-                                        <img src="/assets/img/blog/blog-details-1-1.jpg" alt="img" />
+                                        <img className="w-100" src={"/assets/img/blog/" + frontmatter?.img} alt="img" />
                                         <div className="blog__post-meta">
                                             <ul className="list-wrap">
-                                                <li><i className="far fa-clock" />DECEMBER 14, 2023</li>
+                                                <li><i className="far fa-clock" />{frontmatter?.date}</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div className="blog__details-content">
-                                        <h2 className="page-title mb-30">AI IN HEALTHCARE: REVOLUTIONIZING THE MEDICAL INDUSTRY</h2>
-                                        <p className="mb-30">In recent years, the healthcare industry has witnessed a groundbreaking transformation driven by the integration of artificial intelligence (AI) technologies. These advancements are revolutionizing patient care, medical research, diagnostics, and treatment strategies. The synergy between AI and healthcare is reshaping the landscape of medicine, offering new possibilities and improved outcomes.</p>
-                                        <p>One of the most remarkable applications of AI in healthcare is in diagnostics. Machine learning algorithms are capable of analyzing vast amounts of medical data with unprecedented speed and accuracy. This has led to earlier and more precise disease detection, greatly enhancing the chances of successful treatment.</p>
-                                        <blockquote>
-                                            <p>Multixion has been an invaluable partner to us. Any talent we've worked with has shown a deep
-                                                understanding of digital experiences. They're able to seamlessly integrate with our team and meet the level of craft that we hold ourselves accountable to. </p>
-                                        </blockquote>
-                                        <p className="mb-0">AI-driven predictive analytics are being used to forecast disease outbreaks and patient admission rates, enabling hospitals and healthcare facilities to allocate resources more efficiently. This is especially crucial during public health emergencies.</p>
+                                        <div dangerouslySetInnerHTML={{ __html: content }} />
                                         <div className="blog__details-content-bottom">
                                             <div className="row align-items-center">
                                                 <div className="col-xl-6">
                                                     <div className="post-tags">
                                                         <h5 className="title">TAGS:</h5>
                                                         <ul className="list-wrap">
-                                                            <li><Link href="/#">Marketing</Link></li>
-                                                            <li><Link href="/#">Brand</Link></li>
+                                                            <li><Link href="/#">{frontmatter?.category}</Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -87,3 +92,5 @@ export default function BlogDetails() {
         </>
     )
 }
+
+
