@@ -63,19 +63,17 @@ export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, hand
                         <div className="tgmobile__menu-bottom">
                             <div className="contact-info">
                                 <ul className="list-wrap">
-                                    <li><Link href="mailto:info@vexa.com">info@vexa.com</Link></li>
-                                    <li><Link href="/tel:0123456789">+123 888 9999</Link></li>
+                                    <li><Link href="mailto:service@multixion.com">service@multixion.com</Link></li>
+                                    <li><Link href="/tel:+966575741941">+966 575741941</Link></li>
                                 </ul>
                             </div>
                             <div className="social-links">
                                 <ul className="list-wrap">
-                                    <li><Link href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f" /></Link></li>
-                                    <li><Link href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></Link></li>
-                                    <li><Link href="https://www.whatsapp.com/" target="_blank"><i className="fab fa-whatsapp" /></Link>
-                                    </li>
-                                    <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram" /></Link></li>
-                                    <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube" /></Link>
-                                    </li>
+                                    <li><Link href="https://www.facebook.com/share/RtamEJEscwRFTj4w/?mibextid=LQQJ4d" target="_blank"><i className="fab fa-facebook-f" /></Link></li>
+                                    <li><Link href="https://twitter.com/multixion" target="_blank"><i className="fab fa-twitter" /></Link></li>
+                                    <li><Link href="https://api.whatsapp.com/send?phone=966575741941&text=Hi,%20We%20are%20interested%20in%20your%20services" target="_blank"><i className="fab fa-whatsapp" /></Link></li>
+                                    <li><Link href="https://www.instagram.com/multixion" target="_blank"><i className="fab fa-instagram" /></Link></li>
+                                    {/* <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube" /></Link> </li> */}
                                 </ul>
                             </div>
                         </div>

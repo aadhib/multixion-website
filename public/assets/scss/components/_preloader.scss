@@ -6,7 +6,8 @@
 #preloader {
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     margin-top: 0px;
     top: 0px;
     z-index: 9999;

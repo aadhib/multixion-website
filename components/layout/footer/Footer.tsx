@@ -1,3 +1,4 @@
+import { url } from 'inspector'
 import Link from 'next/link'
 
 export default function Footer1() {
@@ -56,7 +57,7 @@ export default function Footer1() {
                     </div>
                     <div className="footer__bottom">
                         <div className="container text-center">
-                            <button className="scroll__footer-top scroll-to-target open text-white" data-target="html">
+                            <button className="scroll__footer-top scroll-to-target open text-white" data-target="html" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                                 Back to top <i className="fas fa-arrow-up" />
                             </button>
                         </div>

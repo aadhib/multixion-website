@@ -1,30 +1,7 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
-const testimonials = [
-    {
-        clientName: "Naban Muhammed",
-        companyName: "Real Safe",
-        work: "Logo Redesign",
-        text: "Impressive collaboration with Multixion Digital. They demonstrated outstanding responsiveness, professionalism, and dedication to meeting our branding goals.",
-        designation: "Marketing Director at Real Safe"
-    },
-    {
-        clientName: "Ajay Prabhakaran",
-        companyName: "Integlobe Ventures",
-        work: "Website and IT infrastructure",
-        text: "Exceptional service from Multixion Digital. Their proactive approach, ease of collaboration, and commitment to excellence transformed our IT infrastructure.",
-        designation: "CTO at Integlobe Ventures"
-    },
-    {
-        clientName: "Joseph Cruz",
-        companyName: "Agno Engineering",
-        work: "Website and IT infrastructure",
-        text: "Outstanding partnership with Multixion Digital. Their responsiveness, collaboration, and support were instrumental in enhancing our website and IT systems.",
-        designation: "CEO at Agno Engineering"
-    }
-];
+import testimonials from "@/util/testimonials.json"
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
