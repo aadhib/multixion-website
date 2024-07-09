@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://multixion.com
+
+# Sitemaps
+Sitemap: https://multixion.com/sitemap.xml
