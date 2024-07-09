@@ -2,6 +2,30 @@
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
+const testimonials = [
+    {
+        clientName: "Naban Muhammed",
+        companyName: "Real Safe",
+        work: "Logo Redesign",
+        text: "Impressive collaboration with Multixion Digital. They demonstrated outstanding responsiveness, professionalism, and dedication to meeting our branding goals.",
+        designation: "Marketing Director at Real Safe"
+    },
+    {
+        clientName: "Ajay Prabhakaran",
+        companyName: "Integlobe Ventures",
+        work: "Website and IT infrastructure",
+        text: "Exceptional service from Multixion Digital. Their proactive approach, ease of collaboration, and commitment to excellence transformed our IT infrastructure.",
+        designation: "CTO at Integlobe Ventures"
+    },
+    {
+        clientName: "Joseph Cruz",
+        companyName: "Agno Engineering",
+        work: "Website and IT infrastructure",
+        text: "Outstanding partnership with Multixion Digital. Their responsiveness, collaboration, and support were instrumental in enhancing our website and IT systems.",
+        designation: "CEO at Agno Engineering"
+    }
+];
+
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
@@ -30,49 +54,30 @@ const swiperOptions = {
         prevEl: '.testimonial-button-prev',
     },
 }
+
 export default function TestimonialSlider() {
     return (
         <>
             <div className="swiper testimonial-active" id="testimonialSlider1">
                 <Swiper {...swiperOptions} className="swiper-wrapper">
-                    <SwiperSlide>
-                        <div className="testimonial__item">
-                            <div className="testimonial__icon">
-                                <img src="/assets/img/icon/quote-left.svg" alt="img" />
-                            </div>
-                            <div className="testimonial__content">
-                                <p className="testimonial__text">Great experience working with the team at
-                                    Multixion Digital. They are always very responsive, easy to work with and
-                                    ready to support the clients' needs.</p>
-                                <div className="testimonial__author">
-                                    <div className="testimonial__author-content">
-                                        <h4 className="testimonial__title">NADRA</h4>
-                                        <span className="testimonial__desig">MARKETING DIRECTOR AT
-                                            BOKITTA</span>
+                    {testimonials.map((testimonial, index) => (
+                        <SwiperSlide key={index}>
+                            <div className="testimonial__item">
+                                <div className="testimonial__icon">
+                                    <img src="/assets/img/icon/quote-left.svg" alt="img" className="injectable" />
+                                </div>
+                                <div className="testimonial__content">
+                                    <p className="testimonial__text">{testimonial.text}</p>
+                                    <div className="testimonial__author">
+                                        <div className="testimonial__author-content">
+                                            <h4 className="testimonial__title">{testimonial.clientName}</h4>
+                                            <span className="testimonial__desig">{testimonial.designation} at {testimonial.companyName}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="testimonial__item">
-                            <div className="testimonial__icon">
-                                <img src="/assets/img/icon/quote-left.svg" alt="img" className="injectable" />
-                            </div>
-                            <div className="testimonial__content">
-                                <p className="testimonial__text">Great experience working with the team at
-                                    Multixion Digital. They are always very responsive, easy to work with and
-                                    ready to support the clients' needs.</p>
-                                <div className="testimonial__author">
-                                    <div className="testimonial__author-content">
-                                        <h4 className="testimonial__title">NADRA</h4>
-                                        <span className="testimonial__desig">MARKETING DIRECTOR AT
-                                            BOKITTA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+                        </SwiperSlide>
+                    ))}
                 </Swiper>
             </div>
             <div className="slider-area btn-wrap">
