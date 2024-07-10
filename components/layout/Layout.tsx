@@ -10,7 +10,7 @@ import Footer from './footer/Footer'
 import Header from "./header/Header"
 
 interface LayoutProps {
-    fixedHeader?:boolean
+    fixedHeader?: boolean
     children?: React.ReactNode
     breadcrumbTitle?: string
 }
