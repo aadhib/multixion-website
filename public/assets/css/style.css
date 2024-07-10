@@ -38,14 +38,14 @@
 /*============================================
 /*  01. Theme Default CSS
 ==============================================*/
-@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;600;900&display=swap");
 .text-theme {
   color: var(--tg-theme-primary) !important;
 }
 
 :root {
   --tg-body-font-family: 'Poppins', sans-serif;;
-  --tg-heading-font-family: 'Aclonica', sans-serif;;
+  --tg-heading-font-family: 'Archivo', sans-serif;;
   --tg-heading2-font-family: 'Unbounded', sans-serif;;
   --tg-icon-font-family: "Font Awesome 5 Free";
   --tg-body-font-size: 16px;

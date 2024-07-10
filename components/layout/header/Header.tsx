@@ -52,12 +52,6 @@ export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, hand
                         <div className="nav-logo">
                             <Link href="/"><img src="/assets/img/logo/logo-white.svg" alt="Logo" /></Link>
                         </div>
-                        <div className="tgmobile__search">
-                            <form action="#">
-                                <input type="text" id='searchbar' placeholder="Search here..." />
-                                <button><i className="fas fa-search" /></button>
-                            </form>
-                        </div>
                         <div className="tgmobile__menu-outer">
                             <MobileMenu />
                         </div>

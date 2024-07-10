@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Aclonica, Poppins, Unbounded } from "next/font/google"
+import { Archivo, Poppins, Unbounded } from "next/font/google"
 import 'aos/dist/aos.css';
 import 'swiper/css'
 import "swiper/css/navigation"
@@ -21,8 +21,8 @@ const poppins = Poppins({
     variable: "--tg-body-font-family",
     display: 'swap',
 })
-const aclonica = Aclonica({
-    weight: ['400'],
+const archivo = Archivo({
+    weight: ['300', '400', '500', '600', '700'],
     subsets: ["latin"],
     variable: "--tg-heading-font-family",
     display: 'swap',
@@ -63,7 +63,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${poppins.variable} ${aclonica.variable} ${unbounded.variable} theme-green`}>{children}</body>
+            <body className={`${poppins.variable} ${archivo.variable} ${unbounded.variable} theme-green`}>{children}</body>
         </html>
     )
 }
