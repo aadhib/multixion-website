@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-export default function Error() {
 
+export default function Error() {
     return (
         <>
             <Layout fixedHeader={true}>

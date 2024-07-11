@@ -39,8 +39,12 @@ export default function Blog() {
                 if (!res.ok) {
                     throw new Error('Failed to fetch post');
                 }
-                const response = await res.json();
-                setBlogsAPIResponse(response);
+                
+                await res.json().then((data) => {
+                    console.log(data);
+                    setBlogsAPIResponse(data);
+                });
+
             } catch (error) {
                 console.error(error);
             }
@@ -49,11 +53,9 @@ export default function Blog() {
         fetchPost();
     }, []);
 
-    let blogs = blogsAPIResponse?.blogs;
+    let blogs = blogsAPIResponse?.blogs!;
 
-    if (!blogs) {
-        return <Loading />
-    }
+    if(!blogs) return <Loading/>
 
     return (
         <>
@@ -61,7 +63,7 @@ export default function Blog() {
                 <section className="blog-area-4 pt-110 pb-120">
                     <div className="container">
                         <div className="row gy-80 justify-content-center">
-                            {blogs.map(({ frontmatter }) =>
+                            {blogs?.map(({ frontmatter }) =>
                                 <div className="col-xl-4 col-md-6" key={frontmatter.id}>
                                     <div className="blog__post-item-five shine-animate-item">
                                         <div className="blog__post-thumb">

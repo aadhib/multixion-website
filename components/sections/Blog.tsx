@@ -26,9 +26,7 @@ export default function Blog() {
 
     let blogs = blogsAPIResponse?.blogs;
 
-    if (!blogs) {
-        return <Loading />
-    }
+    if(!blogs) return <Loading/>
 
     return (
         <>

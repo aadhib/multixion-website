@@ -5,7 +5,6 @@ import services from "@/util/services.json"
 
 const porfolioLinks = [
     { id: 1, name: 'Portfolio', path: '/project' },
-    { id: 2, name: 'Portfolio Details', path: '/project-details' },
 ]
 
 const blogLinks = [
