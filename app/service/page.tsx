@@ -18,9 +18,6 @@ export default function Service() {
                                     return (
                                         <div key={id} className="col-xl-4 col-md-6">
                                             <div className="service-card style2">
-                                                <div className="service-card-img">
-                                                    <img src={"/assets/img/service/" + cardImage} alt="img" />
-                                                </div>
                                                 <h5 className="service-card-number">{id}</h5>
                                                 <h4 className="service-card-title"><Link href={cardContent}>{name}</Link></h4>
                                                 <p className="service-card-text">{cardContent}</p>
