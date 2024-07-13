@@ -22,7 +22,7 @@ const poppins = Poppins({
     display: 'swap',
 })
 const archivo = Archivo({
-    weight: ['300', '400', '500', '600', '700'],
+    weight: ['800'],
     subsets: ["latin"],
     variable: "--tg-heading-font-family",
     display: 'swap',
