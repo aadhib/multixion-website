@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import Script from "next/script"
 import { redirect } from 'next/navigation'
 
-export default function BackToTop({ target }: React.ChangeEvent<HTMLInputElement>) {
+export default function BackToTop() {
     const [hasScrolled, setHasScrolled] = useState(false)
 
     useEffect(() => {
@@ -18,7 +18,7 @@ export default function BackToTop({ target }: React.ChangeEvent<HTMLInputElement
     const handleClick = () => {
         // @ts-ignore
         window.Calendly.initPopupWidget({
-            url: 'https://calendly.com/service-multixion/30min',
+            url: 'https://calendly.com/service-multixion/30min?hide_gdpr_banner=1&background_color=000000&text_color=ffffff&primary_color=0900ff',
         });
     }
 

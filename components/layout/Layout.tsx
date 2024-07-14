@@ -63,7 +63,7 @@ export default function Layout({ breadcrumbTitle, children, fixedHeader }: Layou
                     {children}
                 </main>
                 < Footer />
-                <BackToTop target="#top" />
+                <BackToTop />
             </Suspense>
         </>
     )

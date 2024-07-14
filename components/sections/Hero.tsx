@@ -1,5 +1,4 @@
 import Link from "next/link"
-import CalendlyEmbed from "../elements/CalendlyEmbed"
 
 export default function Hero() {
     return (
