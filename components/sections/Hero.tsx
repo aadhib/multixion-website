@@ -21,10 +21,10 @@ export default function Hero() {
                             </div>
                         </div>
                         <div className="tg-button-wrap">
-                            <Link href="/about" className="btn border-white wow img-custom-anim-right">
+                            <Link href="/about/#vision" className="btn border-white wow img-custom-anim-right">
                                 <img src="/assets/img/icon/star-lock.svg" alt="img" />VISION 2030
                             </Link>
-                            <Link href="/about" className="btn border-white wow img-custom-anim-right">
+                            <Link href="/about/#impact" className="btn border-white wow img-custom-anim-right">
                                 <i className="icon-globe" />BUILDING FOR IMPACT
                             </Link>
                         </div>

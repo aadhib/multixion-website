@@ -1,11 +1,18 @@
+'use client'
+
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { useParams } from "next/navigation"
 import Marquee from "react-fast-marquee"
+
 export default function About() {
+    const router = useParams();
+
+    console.log(router);
+    
 
     return (
         <>
-
             <Layout breadcrumbTitle="ABOUT US">
                 <section className="pb-120 pt-120 ">
                     <div className="overflow-hidden">
@@ -71,11 +78,11 @@ export default function About() {
                     <div className="overflow-hidden">
                         <div className="container">
                             <div className="row gy-40 justify-content-between">
-                                <p>
+                                <p id="impact">
                                     We live by the motto <b>‘Innovate, Integrate, Inspire.’</b>
-                                    
+
                                     <br /><br />
-                                    
+
                                     With a passion for technology and a commitment to excellence,
                                     we specialize in delivering a wide range of IT services tailored to
                                     empower businesses in the digital age. From foundational ser
@@ -109,11 +116,9 @@ export default function About() {
                         </div>
                     </div>
                 </section>
+                {/*========/ Counter Section /========*/}
 
-                {/*======== / Counter Section ========*/}
-
-                {/*=========Skill Area 01==============*/}
-
+                {/*=========/ Skill Area /==============*/}
                 <section className="skill-area-1 pt-120 pb-120 black-bg position-relative">
                     <div className="skill-area-bg-shape1 square-shape-wrap">
                         <div className="square-shape1" />
@@ -124,13 +129,7 @@ export default function About() {
                         <div className="row gy-40 align-items-center">
                             <div className="col-xl-5">
                                 <div className="skill-thumb-box1 wow img-custom-anim-left">
-                                <img src="/assets/img/service/thumbnail/service-thumb4.jpg" alt="img" height="600" width="500" style={{ filter: "grayscale(100%)" }} />
-                                    {/* <div className="square-shape-wrap">
-                                        <div className="square-shape1" />
-                                        <div className="square-shape2" />
-                                        <div className="square-shape3" />
-                                        <div className="square-shape4" />
-                                    </div> */}
+                                    <img src="/assets/img/service/thumbnail/service-thumb4.jpg" alt="img" height="600" width="500" style={{ filter: "grayscale(100%)" }} />
                                 </div>
                             </div>
                             <div className="col-xl-7">
@@ -181,75 +180,13 @@ export default function About() {
                 </section>
                 {/*======== / Skill Section ========*/}
 
-                {/*========Team Area==============*/}
-
-                {/* <section className="pt-110 pb-120 position-relative">
-                    <div className="contact-area-bg-shape1 square-shape-wrap d-lg-inline-flex d-none">
-                        <div className="square-shape1" />
-                        <div className="square-shape2" />
-                        <div className="square-shape3" />
-                        <div className="square-shape4" />
-                    </div>
-                    <div className="container">
-                        <div className="section__title text-center mb-50">
-                            <h2 className="title wow img-custom-anim-top">Meet The Makers</h2>
-                        </div>
-                        <div className="row gx-30 gy-30 justify-content-center">
-                            <div className="col-xl-3 col-lg-4 col-md-6 wow img-custom-anim-top">
-                                <div className="team-card">
-                                    <div className="team-card-thumb">
-                                        <img src="/assets/img/team/team-1-2.jpg" alt="img" />
-                                    </div>
-                                    <div className="team-card-details">
-                                        <div className="media-left">
-                                            <h4 className="team-card-title"><Link href="/team-details">Aadhib Nasser</Link></h4>
-                                            <p className="team-card-text">Creative Director</p>
-                                        </div>
-                                        <div className="team-social">
-                                            <button className="icon-btn"><i className="fas fa-plus" /></button>
-                                            <div className="social-icon-wrap">
-                                                <Link href="https://facebook.com/"><i className="fab fa-facebook-f" /></Link>
-                                                <Link href="https://twitter.com/"><i className="fab fa-twitter" /></Link>
-                                                <Link href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 wow img-custom-anim-top">
-                                <div className="team-card">
-                                    <div className="team-card-thumb">
-                                        <img src="/assets/img/team/team-1-4.jpg" alt="img" />
-                                    </div>
-                                    <div className="team-card-details">
-                                        <div className="media-left">
-                                            <h4 className="team-card-title"><Link href="/team-details">Zedan Saheer</Link></h4>
-                                            <p className="team-card-text">Technical Lead</p>
-                                        </div>
-                                        <div className="team-social">
-                                            <button className="icon-btn"><i className="fas fa-plus" /></button>
-                                            <div className="social-icon-wrap">
-                                                <Link href="https://facebook.com/"><i className="fab fa-facebook-f" /></Link>
-                                                <Link href="https://twitter.com/"><i className="fab fa-twitter" /></Link>
-                                                <Link href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-                {/*======== / Team Section ========*/}
-
-                {/*==============================Award Area==============================*/}
-
+                {/*=======================/ Vision 2030 Area /============================*/}
                 <section className="award-area-1 pt-110 pb-120 theme-bg">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8">
                                 <div className="section__title mb-50 wow img-custom-anim-left">
-                                    <h2 className="title vision-title">VISION 2030 - Timeline</h2>
+                                    <h2 className="title vision-title" id="vision">VISION 2030 - Timeline</h2>
                                 </div>
                             </div>
                         </div>
@@ -307,10 +244,9 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-                {/*======== / Award Section ========*/}
+                {/*======== / Vision 2030 Section ========*/}
 
-                {/*=================Marquee Area====================*/}
-
+                {/*=================/ Marquee Area /====================*/}
                 <div className="container-fluid px-0 overflow-hidden pb-30 pt-30 theme-bg">
                     <div className="slider__marquee clearfix marquee-wrap style3">
                         <Marquee className="marquee_mode marquee__group">
@@ -324,9 +260,6 @@ export default function About() {
                     </div>
                 </div>
                 {/*======== / Marquee Section ========*/}
-
-
-
             </Layout>
         </>
     )

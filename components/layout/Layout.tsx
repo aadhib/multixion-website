@@ -57,7 +57,7 @@ export default function Layout({ breadcrumbTitle, children, fixedHeader }: Layou
                 {/* <MobileMenu /> */}
                 <DataBg />
                 <MagnetsComponent />
-                <AddClassBody />
+                <AddClassBody /> 
                 <main className="fix" id='top'>
                     {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
                     {children}
