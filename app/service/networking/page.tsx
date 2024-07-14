@@ -27,7 +27,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100 bw-filter" src="/assets/img/service/7-2.webp" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/7-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Networking Deliverables</h3>
                                 <p className="mb-30">Our networking services cover the entire spectrum of network design, implementation, and maintenance. We ensure robust, secure, and efficient networks tailored to meet the specific needs of your business.</p>
                                 <p>Our services include network design and implementation, ensuring optimal performance and scalability. We also provide comprehensive network security solutions to protect your data and infrastructure from cyber threats. Our wireless networking solutions offer flexibility and mobility for your business operations.</p>

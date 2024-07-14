@@ -26,7 +26,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100 bw-filter" src="/assets/img/service/5-2.webp" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/5-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Development Deliverables</h3>
                                 <p className="mb-30">Cloud solution development involves creating scalable, flexible, and efficient software solutions hosted on cloud platforms. This includes developing custom cloud applications, migrating existing applications to the cloud, and building SaaS products.</p>
                                 <p>Custom cloud solutions are tailored to meet specific business requirements, providing optimized performance and seamless integration with other systems. Cloud migration involves moving data, applications, and workloads to a cloud environment, ensuring improved efficiency and cost savings.</p>

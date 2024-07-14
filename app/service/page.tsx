@@ -14,7 +14,7 @@ export default function Service() {
                     <section className="service-area-2 pt-120 pb-120">
                         <div className="container">
                             <div className="row gx-30 gy-30">
-                                {services.map(({ id, name, path, cardContent, cardImage }) => {
+                                {services.map(({ id, name, path, cardContent }) => {
                                     return (
                                         <div key={id} className="col-xl-4 col-md-6">
                                             <div className="service-card style2">

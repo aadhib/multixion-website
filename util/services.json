@@ -3,63 +3,54 @@
     "id": "01",
     "name": "IT Consulting",
     "path": "/service/it-consulting",
-    "cardImage": "1-1.jpg",
     "cardContent": "Tailored IT strategies to optimize your business operations and enhance efficiency."
   },
   {
     "id": "02",
     "name": "Software Development",
     "path": "/service/software-development",
-    "cardImage": "2-1.jpg",
     "cardContent": "Custom software solutions designed to meet your specific business needs and drive growth."
   },
   {
     "id": "03",
     "name": "Web Development",
     "path": "/service/web-development",
-    "cardImage": "3-1.jpg",
     "cardContent": "Responsive and scalable web solutions that elevate your online presence and user experience."
   },
   {
     "id": "04",
     "name": "Mobile App Development",
     "path": "/service/mobile-app-development",
-    "cardImage": "4-1.jpeg",
     "cardContent": "Innovative mobile applications that engage users and deliver seamless experiences across platforms."
   },
   {
     "id": "05",
     "name": "Cloud Solutions",
     "path": "/service/cloud-solutions",
-    "cardImage": "5-1.jpg",
     "cardContent": "Secure and scalable cloud infrastructure to streamline your operations and ensure data accessibility."
   },
   {
     "id": "06",
     "name": "Cybersecurity",
     "path": "/service/cybersecurity",
-    "cardImage": "6-1.jpg",
     "cardContent": "Robust cybersecurity measures to protect your digital assets and safeguard against potential threats."
   },
   {
     "id": "07",
     "name": "Networking",
     "path": "/service/networking",
-    "cardImage": "7-1.jpg",
     "cardContent": "Efficient network solutions to optimize connectivity and facilitate seamless communication."
   },
   {
     "id": "08",
     "name": "IT Support and Maintenance",
     "path": "/service/it-support-maintenance",
-    "cardImage": "8-1.png",
     "cardContent": "Proactive IT support and maintenance services to keep your systems running smoothly and minimize downtime."
   },
   {
     "id": "09",
     "name": "Creative Branding Solutions",
     "path": "/service/creative-branding-solutions",
-    "cardImage": "9-1.jpg",
     "cardContent": "Strategic branding initiatives that define your brand identity and resonate with your target audience."
   }
 ]

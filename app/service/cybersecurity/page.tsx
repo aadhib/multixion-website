@@ -27,7 +27,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100 bw-filter" src="/assets/img/service/6-2.jpeg" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/6-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Cybersecurity Deliverables</h3>
                                 <p className="mb-30">Our cybersecurity services encompass a wide range of solutions tailored to safeguard your business from digital threats. From proactive threat detection and incident response to comprehensive security audits and robust network protection, we ensure your business remains secure.</p>
                                 <p>We offer advanced threat detection and response capabilities to identify and mitigate security incidents swiftly. Our security audits and assessments help uncover vulnerabilities and implement necessary safeguards. Network and endpoint security solutions provide robust protection for your IT infrastructure, while our cloud security services ensure the safety of your data in the cloud.</p>

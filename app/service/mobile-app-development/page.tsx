@@ -26,7 +26,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100 bw-filter" src="/assets/img/service/4-2.webp" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/4-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Development Deliverables</h3>
                                 <p className="mb-30">Mobile app development encompasses various aspects such as native and cross-platform development, user experience design, and robust backend integration. Each approach offers unique benefits and challenges, tailored to meet the specific needs of the project.</p>
                                 <p>Native development provides the best performance and user experience by leveraging platform-specific languages and frameworks. Cross-platform development, on the other hand, allows for a single codebase to be used across multiple platforms, reducing development time and cost.</p>

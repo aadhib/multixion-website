@@ -27,7 +27,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100 bw-filter" src="/assets/img/service/9-2.png" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/9-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Branding Deliverables</h3>
                                 <p className="mb-30">Creative branding solutions involve a blend of strategic thinking and innovative design to create a distinctive brand presence. From brand strategy to visual identity and brand storytelling, each component plays a crucial role in crafting a cohesive brand experience.</p>
                                 <p>Creative brand strategy focuses on understanding your target audience, defining brand values, and developing a unique brand proposition. Visual identity design includes the creation of logos, color schemes, typography, and other visual elements that represent the brand's personality. Brand storytelling ensures that your brand communicates its values and vision effectively across all touchpoints.</p>

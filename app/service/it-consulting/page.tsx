@@ -27,7 +27,7 @@ export default function ServiceDetails() {
                                 </div>
                             </div>
                             <div className="service-inner-thumb mt-60 mb-110">
-                                <img className="w-100 bw-filter" src="/assets/img/service/1-2.png" alt="img" />
+                                <img className="w-100 bw-filter" src="/assets/img/service/1-2.jpg" alt="img" />
                                 <h3 className="page-title mt-60 mb-30">Consulting Deliverables</h3>
                                 <p className="mb-30">Our IT consulting services encompass a comprehensive approach to optimize your technology environment. From strategic IT planning to project management and implementation, we provide the expertise needed to drive your business forward.</p>
                                 <p>We assess your current IT infrastructure and processes, identifying areas for improvement and recommending tailored solutions. Our consultants work closely with your team to develop and implement IT strategies that align with your business objectives, ensuring efficient and effective use of technology resources.</p>
