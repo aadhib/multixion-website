@@ -46,6 +46,7 @@
 :root {
   --tg-body-font-family: 'Poppins', sans-serif;;
   --tg-heading-font-family: 'Archivo', sans-serif;;
+  --tg-heading-font-weight: 800;
   --tg-heading2-font-family: 'Unbounded', sans-serif;;
   --tg-icon-font-family: "Font Awesome 5 Free";
   --tg-body-font-size: 16px;
@@ -1582,29 +1583,31 @@ textarea {
     08. Scroll Top
 ===============================*/
 .scroll__top {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
+  width: 100px;
+  height: 100px;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
   bottom: -10%;
   right: 50px;
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
   border-radius: 50%;
   z-index: 99;
   color: var(--tg-color-dark);
   text-align: center;
   cursor: pointer;
   background: var(--tg-theme-primary);
-  transition: 1s ease;
+  transition: 1s ease all;
   border: none;
 }
 @media (max-width: 1199.98px) {
   .scroll__top {
     right: 25px;
+    font-size: 10px;
   }
 }
 @media (max-width: 991.98px) {
@@ -1615,10 +1618,9 @@ textarea {
 @media (max-width: 767.98px) {
   .scroll__top {
     right: 15px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 6px;
   }
 }
 .scroll__top.open {

@@ -1,7 +1,9 @@
 'use client'
 import { useEffect, useState } from "react"
+import Script from "next/script"
+import { redirect } from 'next/navigation'
 
-export default function BackToTop({ target }: any) {
+export default function BackToTop({ target }: React.ChangeEvent<HTMLInputElement>) {
     const [hasScrolled, setHasScrolled] = useState(false)
 
     useEffect(() => {
@@ -14,17 +16,26 @@ export default function BackToTop({ target }: any) {
     }, [])
 
     const handleClick = () => {
-        window.scrollTo({
-            top: document.querySelector(target).offsetTop,
-            behavior: 'smooth'
-        })
+        // @ts-ignore
+        window.Calendly.initPopupWidget({
+            url: 'https://calendly.com/service-multixion/30min',
+        });
     }
 
     return (
         <>
+            <Script
+                src="https://assets.calendly.com/assets/external/widget.js"
+                type="text/javascript"
+                async
+            />
+            <link
+                href="https://assets.calendly.com/assets/external/widget.css"
+                rel="stylesheet"
+            />
             {hasScrolled && (
                 <a className="scroll__top scroll-to-target open" onClick={handleClick}>
-                    <i className="fas fa-arrow-up" />
+                    Schedule a meeting?
                 </a>
 
             )}

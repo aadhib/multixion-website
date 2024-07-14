@@ -6,11 +6,6 @@ import { useParams } from "next/navigation"
 import Marquee from "react-fast-marquee"
 
 export default function About() {
-    const router = useParams();
-
-    console.log(router);
-    
-
     return (
         <>
             <Layout breadcrumbTitle="ABOUT US">
