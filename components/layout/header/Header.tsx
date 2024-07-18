@@ -53,7 +53,7 @@ export default function Header({ scroll, handleMobileMenu, isOffcanvasMenu, hand
                             <Link href="/"><img src="/assets/img/logo/logo-white.svg" alt="Logo" /></Link>
                         </div>
                         <div className="tgmobile__menu-outer">
-                            <MobileMenu />
+                            <MobileMenu closeMenu={handleMobileMenu}/>
                         </div>
                         <div className="tgmobile__menu-bottom">
                             <div className="contact-info">

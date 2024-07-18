@@ -18,15 +18,15 @@ interface LayoutProps {
 
 
 export default function Layout({ breadcrumbTitle, children, fixedHeader }: LayoutProps) {
-    const [scroll, setScroll] = useState<boolean>(false)
-    // Mobile Menu
-    const [isMobileMenu, setMobileMenu] = useState<boolean>(false)
+    const [scroll, setScroll] = useState<boolean>(false);
+    const [isOffcanvasMenu, setOffcanvasMenu] = useState<boolean>(false)
+    const [isMobileMenu, setMobileMenu] = useState<boolean>(false);
+
     const handleMobileMenu = (): void => {
         setMobileMenu(!isMobileMenu)
         !isMobileMenu ? document.body.classList.add("mobile-menu-visible") : document.body.classList.remove("mobile-menu-visible")
     }
 
-    const [isOffcanvasMenu, setOffcanvasMenu] = useState<boolean>(false)
     const handleOffcanvasMenu = (): void => {
         setOffcanvasMenu(!isOffcanvasMenu)
     }
