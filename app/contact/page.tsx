@@ -52,7 +52,7 @@ export default function Contact() {
                                                 2nd Floor, 5391, <br className="d-md-block d-none" /> Dammam 32241, Saudi Arabia
                                             </li>
                                             <li>
-                                                <Link href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d432.8752432809254!2d50.11605490101448!3d26.43247477303172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fb7165fec50d%3A0xa5a66fc2620bc386!2zNzQ5MCDYtNin2LHYuSDYo9io2Yog2KfZhNit2LXZitmGINin2YTYs9mE2YXZiiwgTXVoYW1tZWQgSWJuIFNhdWQsIERhbW1hbSAzMjI0MQ!5e0!3m2!1sen!2ssa!4v1720513443758!5m2!1sen!2ssa" className="link-btn">
+                                                <Link href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223.2958135926943!2d50.11545845275937!3d26.432090970910707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102189a824d7d05%3A0x694924c0894aa1d2!2sMultixion!5e0!3m2!1sen!2ssa!4v1724221878251!5m2!1sen!2ssa" className="link-btn">
                                                     See on Google Map
                                                     <i className="icon-arrow-top-left" />
                                                 </Link>
@@ -104,7 +104,7 @@ export default function Contact() {
 
                     {/* contact-map */}
                     <div className="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d432.8752432809254!2d50.11605490101448!3d26.43247477303172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fb7165fec50d%3A0xa5a66fc2620bc386!2zNzQ5MCDYtNin2LHYuSDYo9io2Yog2KfZhNit2LXZitmGINin2YTYs9mE2YXZiiwgTXVoYW1tZWQgSWJuIFNhdWQsIERhbW1hbSAzMjI0MQ!5e0!3m2!1sen!2ssa!4v1720513443758!5m2!1sen!2ssa" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223.2958135926943!2d50.11545845275937!3d26.432090970910707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102189a824d7d05%3A0x694924c0894aa1d2!2sMultixion!5e0!3m2!1sen!2ssa!4v1724221878251!5m2!1sen!2ssa" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                     </div>
                 </div>
 
