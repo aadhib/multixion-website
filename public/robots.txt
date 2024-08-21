@@ -4,6 +4,8 @@ Allow: /
 
 # Host
 Host: https://multixion.com
+Host: https://multixion.sa
 
 # Sitemaps
 Sitemap: https://multixion.com/sitemap.xml
+Sitemap: https://multixion.sa/sitemap.xml
