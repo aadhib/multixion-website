@@ -17,7 +17,7 @@ export default function BackToTop() {
     const handleClick = () => {
         // @ts-ignore
         window.Calendly.initPopupWidget({
-            url: 'https://calendly.com/service-multixion/30min?hide_gdpr_banner=1&background_color=000000&text_color=ffffff&primary_color=0900ff',
+            url: 'https://calendly.com/admin-multixion/30min?hide_gdpr_banner=1&background_color=000000&text_color=ffffff&primary_color=0900ff'
         });
     }
 
